@@ -1,0 +1,93 @@
+.socialmedia {
+    text-align: center;
+    background: #fff;
+    height: auto;
+    width: 250px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.5), 0 16px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.socialmedias {
+    font-size: 30px;
+}
+a.fa-brands {
+    text-decoration: none;
+    padding: 5px;
+}
+.socialmedia h4 {
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+.footer {
+    background: #cb9d48;
+    padding: 70px 0
+}
+.footercontent {
+    margin: auto;
+    max-width: 1000px;
+}
+.footerrow {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 30px; */
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer-col h4 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-col ul p:not(:last-child) {
+    margin-bottom: 15px;
+}
+.footer-col ul p a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    transition: all 0.3s ease;
+}
+.footer-col ul p a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+.socialmedias a{
+    display: block;
+    height: auto;
+    transition: all 0.3s ease;
+}
+.footer-col .socialmedias a:hover {
+    padding-left: 10px;
+}
+@media screen and (max-width:767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:574px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }   
+}
+
+@media screen and (max-width: 574px) {
+    footer.footer {
+        display: flex;
+    }
+    .footerrow {
+        margin: auto;
+        text-align: center;
+    }
+}
