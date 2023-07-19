@@ -7,14 +7,14 @@ const Footer = () => {
         <div className='container-fluid footer'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'>
+                    <div className='col-md-3 menu'>
                         <h4><a href="#">Home</a></h4>
                         
                             <p className="list"><a href="#" className='nav-link'>Testimonial</a></p>
                             <p className="list"><a href="#">Destination</a></p>
                         
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-3 menu'>
                         <h4><a href="#">About Us</a></h4>
                         
                             <p className="list"><a href="#">Tour Guide</a></p>
@@ -23,7 +23,7 @@ const Footer = () => {
                             <p className="list"><a href="#">Articles</a></p>
                         
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-3 menu'>
                         <h4><a href="#">Our Team</a></h4>
                         
                             <p className="list"><a href="#">Subscribe</a></p>
