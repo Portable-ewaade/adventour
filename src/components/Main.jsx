@@ -6,9 +6,9 @@ const Main = () => {
          <main className='container' >
             <div className="row">
                 <div className='col-md-6 p-md-5 mb-md-5'>
-                      <div className="pt-md-5 mt-4">
-                      <h1 className='fs-xxxlarge fs-sm-xxlarge'>Experience the <br className='d-sm-none d-md-block'/>  beauty of <br className='d-sm-none d-md-block'/>  <span className='text-color'>Ekiti State</span></h1>
-                      <h6 className='lead'>Welcome to the fountain of knowledge. <br /> Discover the best places to enjoy your vacation and explore the beauty of nature with us</h6>
+                      <div className="pt-md-5 pt-3 mt-4">
+                      <h1 className='fs-xxxlarge'>Experience the <br className='d-none d-md-block'/>  beauty of <br className='d-none d-md-block'/>  <span className='text-color'>Ekiti State</span></h1>
+                      <h6 className='lead'>Welcome to the fountain of knowledge. <br className='d-none' /> Discover the best places to enjoy your vacation and explore the beauty of nature with us</h6>
                       </div>
                        
                     <a href="/explore">
