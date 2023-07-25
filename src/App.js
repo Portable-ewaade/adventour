@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 // import Footer from './components/Footer/Footer';
-import Explore from './pages/Explore';
+import Explore from './components/Explore';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IkogosiExplore from './pages/IkogosiExplore';
