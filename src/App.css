@@ -33,16 +33,28 @@
   
 .fs-xlarge{
     font-size: 30px !important;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
   
 .fs-xxlarge{
     font-size: 35px !important;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 .fs-xxxlarge{
     font-size: 50px !important;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 .fs-larger{
     font-size: 40px !important;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .btn:hover{
