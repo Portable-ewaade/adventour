@@ -1,5 +1,5 @@
 import React from 'react'
-import MinExplore from './MinExplore'
+import MinExplore from '../components/MinExplore'
 
 const Explore = () => {
   return (
