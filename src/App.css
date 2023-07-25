@@ -3,7 +3,11 @@
     padding: 0;
     text-decoration: none ;
 }
-
+p{
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
 .nav-bg{
     background-color: #fcd89f;
 }
