@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer/Footer';
 import Explore from './pages/Explore';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -35,6 +36,7 @@ function App() {
             <Route path="/ero-dam" element={<EroDam />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );
