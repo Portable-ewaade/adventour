@@ -15,7 +15,7 @@ const MinExplore = () => {
                             <img src="../../../assets/arinta.png" class="card-img-top" alt="..."/>
                                 <div class="card-body">
                                     <h5 class="card-title">Arinta Waterfall</h5>
-                                    <p class="card-text">Arinta Waterfalls is located at Ipole Iloro, Ekiti State. It is a few minutes to Ikogosi Warm Springand not more than 2 hours and not less than 1 hour30 minutes from Ado Ekiti. Arinta Waterfalls consist of seven different cascades. Everyone that goes to Arinta Waterfalls gets to the first layer.</p>
+                                    <p class="card-text">Arinta Waterfalls is located at Ipole Iloro, Ekiti State. It is a few minutes to Ikogosi Warm Spring and not more than 2 hours and not less than 1 hour 30 minutes from Ado Ekiti. Arinta Waterfalls consist of seven different cascades. Everyone that goes to Arinta Waterfalls gets to the first layer.</p>
                                     <a href="/arinta" class="btn btn-bg text-white">Learn More</a>
                                 </div>
                             </div> 
