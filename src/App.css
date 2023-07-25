@@ -5,10 +5,14 @@
 }
 
 .nav-bg{
-    background-color: #FACED3;
+    background-color: #fcd89f;
+}
+.active{
+    border-bottom: 3px solid #0000 !important;
 }
 .btn-bg{
     background-color: #E2495B;
+    border: 0;
 }
 .text-color{
     color: #E2495B !important;
@@ -37,9 +41,12 @@
 .fs-xxxlarge{
     font-size: 50px !important;
 }
+.fs-larger{
+    font-size: 40px !important;
+}
 
 .btn:hover{
-    background-color: #d42c3f !important;
+    background-color: #c51126 !important;
 }
 
 .top-text{
@@ -47,3 +54,35 @@
     margin-left: 20rem !important;
     top: -10rem !important;
 }
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .picture-card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .picture-card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  /* .carousel-inner {
+    padding: 1em;
+  } */
+  /* .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  } */
+  @media (min-width: 768px) {
+    .picture-card img {
+      height: 11em;
+    }
+  }

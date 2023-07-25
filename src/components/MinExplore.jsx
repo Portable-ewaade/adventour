@@ -16,7 +16,7 @@ const MinExplore = () => {
                                 <div class="card-body">
                                     <h5 class="card-title">Arinta Waterfall</h5>
                                     <p class="card-text">Arinta Waterfalls is located at Ipole Iloro, Ekiti State. It is a few minutes to Ikogosi Warm Springand not more than 2 hours and not less than 1 hour30 minutes from Ado Ekiti. Arinta Waterfalls consist of seven different cascades. Everyone that goes to Arinta Waterfalls gets to the first layer.</p>
-                                    <a href="#" class="btn btn-bg text-white">Learn More</a>
+                                    <a href="/arinta" class="btn btn-bg text-white">Learn More</a>
                                 </div>
                             </div> 
                          </div>
@@ -39,7 +39,7 @@ const MinExplore = () => {
                         <div class="card-body">
                             <h5 class="card-title">Olosunta Hill</h5>
                             <p class="card-text">The Olosunta Hills are located in Ikere – Ekiti Local Government Area of Ekiti State. They are sacred hills, worshipped every year for 9 days, the festival draws tourists from far and wide. The Olusonta rock is unlike other rocks that tourist troop for relaxation.</p>
-                            <a href="#" class="btn btn-bg text-white">Learn More</a>
+                            <a href="/olosunta" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
                     </div>
@@ -60,7 +60,7 @@ const MinExplore = () => {
                         <div class="card-body">
                             <h5 class="card-title">Esa Cave</h5>
                             <p class="card-text">The cave is located at a distance of about 6 kilometers away from Iyin Ekiti in Irepodun/ Ifelodun Local Government Area of Ekiti State This is about 3 kilometers away from Ado-Ekiti,the state capital. The Cave still maintains its natural look while evidence of long use still exists.</p>
-                            <a href="#" class="btn btn-bg text-white">Learn More</a>
+                            <a href="/esacave" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
                     </div>
@@ -71,7 +71,7 @@ const MinExplore = () => {
                         <div class="card-body">
                             <h5 class="card-title">Ero Water Dam</h5>
                             <p class="card-text">Ero dam and lake are man-made tourist attractions in the State. This dam is located at Ikun Ekiti in Moba Local Government of the State. The lake covers some kilometers. In fact, it was initially designed to cover only five kilometres but eventually it covered eleven kilometres.</p>
-                            <a href="#" class="btn btn-bg text-white">Learn More</a>
+                            <a href="/ero-dam" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
                     </div> 

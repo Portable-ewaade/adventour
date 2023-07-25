@@ -1,27 +1,22 @@
 import React from 'react'
 
-const IkogosiExplore = () => {
+const FajuyiExplore = () => {
   return (
     <div>
-          <div className="row">
-                <div className='col-12'>
-                <div id="carouselCaptions" class="carousel">
-               
-                <div class="carousel-inner">
-                    <div class="carousel-item active ">
-                    <img src="../../../assets/fajuyi-1.png" class="d-block w-100 img-fluid border-0" 
-                    alt="..."
-                    style={{ height: "33rem"}}/>
-                    <div class="carousel-caption d-md-block mb-5 pb-5">
-                       <div className="pb-md-5 mb-md-5">
-                       <h1 className='fs-xxxlarge fs-sm-xxlarge mb-5 pb-5'>Welcome to Fajuyi <br className='d-sm-none d-md-block'/> Memorial Park</h1>
+          <div className="container">
+            <div className="row mt-5">
+                <div className="col-md-6 mt-md-5">
+                        <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Fajuyi Memorial Park</span></h1>
+                        <p>Welcome to Fajuyi Memorial Park A monument erected in honor of Colonel Adekunle Fajuyi and other fallen heroes. </p>
+                    </div>
+
+                    <div className="col-md-6">
+                       <div className="card border-0">
+                       <img src="../../../assets/fajuyi-1.png" alt="" className='border-0'/>
                        </div>
                     </div>
-                    </div>
-                </div>
-                </div>
-                </div>
             </div>
+          </div>
             <article className='p-3 p-md-5'>
                 <h4>History</h4>
                 <p> Fajuyi Memorial Park is a significant historical site located in Ado-Ekiti, the capital city of Ekiti State, Nigeria. The park is named in honor of Colonel Adekunle Fajuyi, a Nigerian military officer who served as the military governor of the Western Region of Nigeria in the 1960s. Colonel Fajuyi played a prominent role in Nigeria's history, particularly during the military coup of 1966. On July 29, 1966, a group of army officers led by Major Chukwuma Kaduna Nzeogwu staged a coup, which resulted in the assassination of the Nigerian Prime Minister, Sir Abubakar Tafawa Balewa, and several other high-ranking government officials. In response, Colonel Fajuyi, who was then the military governor of the Western Region, demonstrated loyalty to the federal government by refusing to abandon the Prime Minister and other officials who were taken into custody.
@@ -37,7 +32,7 @@ const IkogosiExplore = () => {
             <div className="">
             <div className="container mx-auto img-fluid">
                <div className="text-center">
-               <img src="../../../assets/fajuyi-2.png" alt="..." className='mx-auto img-fluid'/>
+               <img src="../../../assets/fajuyi.png" alt="..." className='mx-auto img-fluid' style={{width: "65rem", height: "auto"}}/>
                </div>
             </div>
 
@@ -58,7 +53,7 @@ const IkogosiExplore = () => {
             <div className="">
             <div className="container mx-auto img-fluid">
                <div className="text-center">
-               <img src="../../../assets/fajuyi-3.png" alt="..." className='mx-auto img-fluid'/>
+               <img src="../../../assets/fajuyi-4.png" alt="..." className='mx-auto img-fluid'/>
                </div>
             </div>
 
@@ -92,23 +87,20 @@ const IkogosiExplore = () => {
 
              <div className="container mx-auto img-fluid mt-3">
                <div className="text-center">
-               <img src="../../../assets/fajuyi-4.png" alt="..." 
-               className='mb-4 mx-auto img-fluid'/>
+               <img src="../../../assets/fajuyi-view.png" alt="..." 
+               className='mb-4 mx-auto img-fluid' style={{width: "65rem", height: "auto"}}/>
                </div>
                <div className="text-center">
-               <img src="../../../assets/ikogosi-3.png" alt="..." className='mb-4 mx-auto img-fluid'/>
+               <img src="../../../assets/circle-1.png" alt="..." className='mb-4 mx-auto img-fluid' style={{width: "65rem", height: "auto"}}/>
                </div>
                <div className="text-center">
-               <img src="../../../assets/ikogosi-4.png" alt="..." className='mb-4 mx-auto img-fluid'/>
+               <img src="../../../assets/fajuyi-7.png" alt="..." className='mb-4 mx-auto img-fluid' style={{width: "65rem", height: "auto"}}/>
                </div>
                <div className="text-center">
-               <img src="../../../assets/ikogosi-pool.png" alt="..." className='mb-4 mx-auto img-fluid'/>
+               <img src="../../../assets/view-4.png" alt="..." className='mb-4 mx-auto img-fluid'/>
                </div>
                <div className="text-center">
-               <img src="../../../assets/ikogosi-5.png" alt="..." className='mb-4 mx-auto img-fluid'/>
-               </div>
-               <div className="text-center">
-               <img src="../../../assets/ikogosi-6.png" alt="..." className='mb-4 mx-auto img-fluid'/>
+               <img src="../../../assets/fajuyi-3.png" alt="..." className='mb-4 mx-auto img-fluid'/>
                </div>
             </div>
             <div className="p-3 px-md-5 pt-md-5">
@@ -124,7 +116,7 @@ const IkogosiExplore = () => {
 
              </div>
             <div className="p-3 px-md-5 mb-3">
-                <h4>Other tourists centers close to Ikogosi Warm Spring</h4>
+                <h4>Other tourists centers close to Fajuyi Memorial Park</h4>
                 <ol>
                     <li>Arinta Waterfall</li>
                     <li>Eri Ayonigba River</li> 
@@ -137,4 +129,4 @@ const IkogosiExplore = () => {
   )
 }
 
-export default IkogosiExplore
+export default FajuyiExplore
