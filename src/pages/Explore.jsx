@@ -15,6 +15,10 @@ const Explore = () => {
                     <div className="col-md-6 mt-5 pt-md-4">
                         <h1 className='fs-xxxlarge'>Explore your next <span className='text-color'>Vacation</span></h1>
                         <p className='mt-3'>Explore different tourist centers available in Ekiti State and choose the destination for your next vacation</p>
+
+                        {/* <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4" >Explore our Tour Guides</button>
+                  	    </a> */}
                     </div>
 
                     <div className="col-md-6 mt-4">
@@ -49,7 +53,7 @@ const Explore = () => {
                         <div class="card-body">
                             <h5 class="card-title">Orole Hills</h5>
                             <p class="card-text">Oroole Hill is located in Ikere Ekiti in Ikere local government area of Ekiti State. The hill is reputed to be the highest in the Ondo/Ekiti axis, The Hill stands like an egg half – buried in the soil it is worshipped as a goddess of prosperity. The site is ideal for climbing, sight – seeing and picnicking.</p>
-                            <a href="/orole-hills" class="btn btn-bg text-white mt-lg-4">Learn More</a>
+                            <a href="/orole-hills" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
                     </div>
@@ -71,7 +75,7 @@ const Explore = () => {
                         <div class="card-body">
                             <h5 class="card-title">Oni River</h5>
                             <p class="card-text">Oni RIver is located in Efon Alaaye, in Efon Local Government. This river is believed to have therapeutic powers which make people throng the place to bath and get healed. Some fetch the water to drink for healing and deliverance from every form of satanic bondage.</p>
-                            <a href="/" class="btn btn-bg text-white mt-md-4">Learn More</a>
+                            <a href="/" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
                     </div>

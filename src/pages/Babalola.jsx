@@ -3,11 +3,21 @@ import React from 'react'
 const Babalola = () => {
   return (
         <div>
-            <div className="container">
-            <div className="row mt-5">
+            <div style={{
+                backgroundImage: "url('../../../assets/background.png')",
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
+                <div className="container pt-md-5">
+            <div className="row mt-5 mt-md-0">
                 <div className="col-md-6 mt-md-5 pt-md-5 p-md-5">
                         <h1 className='pt-mt-5 fs-xxxlarge'>Welcome to <br /> <span className='text-color'> Babalola Cenotaph</span></h1>
                         <p>Welcome to Babaola Cenotaph A place where the legendary christian leader Apostle Joseph Ayo Babalola was buried. </p>
+
+                        <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
                     </div>
                     <div className="col-md-6 mt-md-5">
                         <div className="card border-0">
@@ -16,6 +26,8 @@ const Babalola = () => {
                     </div>
             </div>
             </div>
+            </div>
+            
             <article className='p-3 p-md-5'>
                 <h4>History</h4>
                 <p>Babalola Cenotaph which is located at Efon-Alaaye Ekiti in Ekiti state is where the revered and legendary Christian leader, Apostle Joseph Ayo Babalola was buried. Known for his spiritual teachings and healing abilities, Apostle Babalola is considered a spiritual pioneer in Nigeria. It is believed that he spent time in meditation and prayer on this mountain, which has made it a sacred site for pilgrims and devotees alike.
@@ -70,6 +82,7 @@ const Babalola = () => {
                     <li>Ikogosi Warm Spring</li> 
                     <li>Arinta Waterfall  </li>
                 </ol>
+                <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
                 </div>
             </div>
       )

@@ -3,11 +3,22 @@ import React from 'react'
 const OrileHills = () => {
   return (
     <div>
-        <div className="container">
-        <div className="row mt-5">
+        <div style={{
+                backgroundImage: "url('../../../assets/background.png')",
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }} >  
+
+            <div className="container pt-md-5">
+             <div className="row pt-5 pt-md-0">
             <div className="col-md-6 mt-md-5 pt-md-5 p-md-5">
                     <h1 className='pt-mt-5 fs-xxxlarge'>Welcome to <br /> <span className='text-color'> Orole Hills</span></h1>
                     <p>Welcome to Orole Hills A rock that stands tall and offers scenic views of the surrounding landscape. </p>
+
+                    <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
                 </div>
 
                 <div className="col-md-6 mt-md-5">
@@ -16,7 +27,9 @@ const OrileHills = () => {
                     </div>
                 </div>
         </div>
-        </div>
+            </div> 
+            </div>
+        
         <article className='p-3 p-md-5'>
             <h4>History</h4>
             <p>Orole Hills played a crucial role in the history of the people of Ikere Ekiti. The hills served as a natural fortress and provided strategic advantages during inter-tribal wars and conflicts in the past. The rocky terrain and elevated position made it a defensive stronghold for the community, allowing them to protect themselves from invading forces. Orole Hills holds deep cultural significance for the indigenous people of Ikere Ekiti. It is considered a sacred site, symbolizing ancestral strength and protection. The hills are associated with various myths, legends, and oral traditions that have been passed down through generations. Local beliefs often connect the hills to the supernatural and spiritual realms. 
@@ -74,6 +87,7 @@ const OrileHills = () => {
                 <li>Fajuyi Memorial Park</li> 
                 <li>Esa Cave </li> 
             </ol>
+            <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
             </div>
         </div>
   )

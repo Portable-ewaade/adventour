@@ -3,13 +3,21 @@ import React from 'react'
 const OlosuntaHill = () => {
   return (
     <div>
-        <div className="container">
-        <div className="row mt-5">
+        <div style={{
+            backgroundImage: "url('../../../assets/background.png')",
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+        }}>
+             <div className="container pt-md-5">
+        <div className="row ">
             <div className="col-md-6 mt-md-5 pt-md-5 p-md-5">
                     <h1 className='pt-mt-5 fs-xxxlarge'>Welcome to <br /> <span className='text-color'> Olosunta Hills</span></h1>
                     <p>Welcome to Olosunta Hills prominent rocky outcrop that rises above the surrounding landscape.</p>
                     
-
+                    <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	</a>
                 </div>
 
                 <div className="col-md-6 mt-md-5">
@@ -19,6 +27,8 @@ const OlosuntaHill = () => {
                 </div>
         </div>
         </div>
+        </div>
+       
         <article className='p-3 p-md-5'>
             <h4>History</h4>
             <p> Olosunta Hill, also known as Olosunta Mountain or Olosunta Rock, has a rich history intertwined with the cultural and religious practices of the Yoruba people in Ekiti State, Nigeria. While specific historical details might be scarce, the hill holds immense significance in the local traditions and beliefs. The hill is considered a sacred site and is closely associated with the deity Olosunta in Yoruba mythology. Olosunta is revered as a powerful deity connected to fertility, healing, and protection. The hill is believed to be the dwelling place of this deity, and it is considered a spiritual portal where prayers and offerings can be made.
@@ -78,6 +88,7 @@ const OlosuntaHill = () => {
                 <li>Fajuyi Memorial Park</li> 
                 <li>Esa Cave </li> 
             </ol>
+            <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
             </div>
         </div>
   )

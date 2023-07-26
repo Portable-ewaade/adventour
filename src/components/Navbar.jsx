@@ -2,15 +2,10 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div  style={{
-      backgroundImage: "url('../../../assets/background.png')",
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center'
-    }}>
+    <div>
            <div className="nav-bg">
          <div className='container '>
-     <nav class="navbar navbar-expand-lg text-white pt-2 ">
+     <nav class="navbar navbar-expand-lg pt-2 ">
         <div class="container-fluid ">
         <a class="navbar-brand fs-2 mr-5 " href="/">Ekiti Tour Web</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -15,6 +15,10 @@ const FajuyiExplore = () => {
                 <div className="col-md-6 pt-md-5 mt-md-5 ">
                         <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Fajuyi Memorial Park</span></h1>
                         <p>Welcome to Fajuyi Memorial Park, A monument erected in honor of Colonel Adekunle Fajuyi and other fallen heroes. </p>
+
+                        <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
                     </div>
 
                     <div className="col-md-6 pt-md-5">
@@ -131,6 +135,7 @@ const FajuyiExplore = () => {
                     <li>Eri Ayonigba River</li> 
                     <li>Fajuyi Memorial Park </li> 
                 </ol>
+                <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
 
              </div>
          </div>

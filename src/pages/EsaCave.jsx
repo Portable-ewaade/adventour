@@ -3,11 +3,21 @@ import React from 'react'
 const EsaCave = () => {
   return (
         <div>
-               <div className="container">
-                <div className="row mt-md-5">
+            <div  style={{
+                backgroundImage: "url('../../../assets/background.png')",
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
+                 <div className="container pt-md-5">
+                <div className="row">
                     <div className="col-md-6 mt-5 p-2 pt-md-5">
                             <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Esa Cave</span></h1>
                             <p>Welcome to Esa Cave. A spectacle cascading down rocky hills from a great height to form a flowing pool of spring water amidst natural forest vegetation. </p>
+
+                            <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
                         </div>
     
                         <div className="col-md-6 mt-md-5">
@@ -17,6 +27,8 @@ const EsaCave = () => {
                         </div>
                 </div>
               </div>
+            </div>
+              
                 <article className='p-3 p-md-5'>
                     <h4>History</h4>
                     <p> Esa Cave is beside a mountain that is about 10,000 feet above the sea level. The original owners of the cave are the Ijoro family of Okesale area of Iyin Ekiti. The Cave was manned by their fore-fathers who discovered that the Cave exists there and they lived there for many centuries. The cave is located at a distance of about 6 kilometers away from Iyin Ekiti in Irepodun/ Ifelodun Local Government Area of Ekiti State This is about 3 kilometers away from Ado-Ekiti, the state capital. 
@@ -73,6 +85,7 @@ const EsaCave = () => {
                         <li>Fajuyi Memorial Park</li> 
                         <li>Ero Water Dam </li> 
                     </ol>
+                    <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
     
                  </div>
              </div>

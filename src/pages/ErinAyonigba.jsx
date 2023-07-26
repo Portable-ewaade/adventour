@@ -4,11 +4,21 @@ const ErinAyonigba = () => {
   return (
     <div>
         <div>
-               <div className="container">
-                <div className="row mt-5">
+            <div  style={{
+                backgroundImage: "url('../../../assets/background.png')",
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
+                 <div className="container pt-md-5">
+                <div className="row">
                     <div className="col-md-6 mt-md-5 p-2 pt-md-5 p-md-5">
                             <h1 className='fs-larger'>Welcome to <br /> <span className='text-color'> Erin Ayonigba River</span></h1>
                             <p>Welcome to Erin Ayonigba River <br />A sacred river that contains sacred catfish that must <br /> not be killed or cooked.</p>
+
+                            <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
                         </div>
     
                         <div className="col-md-6 mt-md-5">
@@ -18,6 +28,8 @@ const ErinAyonigba = () => {
                         </div>
                 </div>
               </div>
+            </div>
+              
                 <article className='p-3 p-md-5'>
                     <h4>History</h4>
                     <p> Erin Ayonigba Sacred Fish River located at Erinjiyan-Ekiti is a river that contains sacred catfish. It is forbidden to fish in this river. According to the people of Erinjiyan, the river is the source of the town, the guardian that protects their children wherever they reside on earth and it is capable of solving numerous problems and challenges affecting man. Even the name, Erinjiyan, was coined from the name of the river, “Erin”. Erijiyan translates to “Erin river does not argue,” which is the reason the river is located where it is today. 
@@ -61,6 +73,7 @@ const ErinAyonigba = () => {
                         <li>Fajuyi Memorial Park</li> 
                         <li>Esa Cave </li> 
                     </ol>
+                    <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
     
                  </div>
              </div>

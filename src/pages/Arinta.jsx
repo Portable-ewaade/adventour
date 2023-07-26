@@ -14,9 +14,13 @@ const Arinta = () => {
                 <div className="col-md-6 mt-5 ">
                         <h1 className='fs-xxxlarge'>Welcome to <br />  <span className='text-color'>Arinta Waterfall</span></h1>
                         <p className='mt-3'>Welcome to Arinta Waterfall, A spectacle cascading down rocky hills from a great height to form a flowing pool of spring water amidst natural forest vegetation.  </p>
+
+                        <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 ">
                        <div className="card border-0">
                        <img src="../../../assets/arinta.png" alt="" className='border-0'/>
                        </div>
@@ -109,6 +113,7 @@ const Arinta = () => {
                     <li>Fajuyi Memorial Park </li>
                     <li>Ero Water Dam</li> 
                 </ol>
+                <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
 
              </div>
            </div>

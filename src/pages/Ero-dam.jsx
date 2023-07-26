@@ -3,11 +3,21 @@ import React from 'react'
 const EroDam = () => {
   return (
         <div>
-               <div className="container">
-                <div className="row mt-md-5">
+            <div style={{
+                backgroundImage: "url('../../../assets/background.png')",
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}> 
+                 <div className="container pt-md-5">
+                <div className="row mt-md-">
                     <div className="col-md-6 mt-5 p-2 pt-md-5">
                             <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Ero Dam</span></h1>
                             <p>Welcome to Ero dam. A spectacle cascading down rocky hills from a great height to form a flowing pool of spring water amidst natural forest vegetation. </p>
+
+                            <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
                         </div>
     
                         <div className="col-md-6 mt-md-5">
@@ -17,6 +27,8 @@ const EroDam = () => {
                         </div>
                 </div>
               </div>
+            </div>
+              
                 <article className='p-3 p-md-5'>
                     <h4>History</h4>
                     <p> Ero dam and lake are man-made tourist attractions in the State. This dam is located at Ikun Ekiti in Moba Local Government of the State. The lake covers some kilometers. In fact, it was initially designed to cover only five kilometres but eventually it covered eleven kilometres. This dam supplies three Local Governments drinkable water and the Local Governments that benefit from this are: Oye, Ido-Osi and Moba itself. This is to say that the dam supplies over one hundred towns and villages in the state with pipe borne water.According to experts, the dam is capable of supplying Ekiti State as a whole potable water. The indigenes of the town and neighbours and even Hausas fish on this Ero lake. Local canoes, boats and modern flying boats are made use of by these fishermen. This dam encourages the people to practise irrigation (system of farming) in their environments.
@@ -60,6 +72,7 @@ const EroDam = () => {
                         <li>Arinta Waterfall </li> 
                     
                     </ol>
+                    <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
     
                  </div>
              </div>
