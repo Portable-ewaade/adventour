@@ -137,24 +137,24 @@ const Home = () => {
 
                 <div className="row text-center mt-3 mb-5">
                     <div className="col-md-4">
-                        <div className="card border-0 shadow-lg mb-2">
-                            <img src="../../../assets/check-mark.png" alt="..." className='w-25 mx-auto pt-2'/>
+                        <div className="card border-0 shadow-lg mb-2 px-5" style={{height: "12rem"}}>
+                            <img src="../../../assets/check-mark.png" alt="..." className='w-25 mx-auto pt-2 mb-2'/>
                             <h4>Verified</h4>
-                            <p className='px-5'>Our tour guides are verified by the Ekiti State Government</p>
+                            <p className='mb-lg-4'>Our tour guides are verified by the Ekiti State Government</p>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card border-0 shadow-lg mb-2">
-                                <img src="../../../assets/3d-map.png" alt="..." className='w-25 mx-auto pt-3'/>
+                        <div className="card border-0 shadow-lg mb-2 px-5" style={{height: "12rem"}}>
+                                <img src="../../../assets/3d-map.png" alt="..." className='w-25 mx-auto pt-3 mb-2'/>
                                 <h4>Lot of Choices </h4>
-                                <p className='px-5'>We work with different tourist centers all over Ekiti State</p>
+                                <p className=''>We work with different tourist centers all over Ekiti State</p>
                             </div>
                     </div>
                     <div className="col-md-4">
-                    <div className="card border-0 shadow-lg mb-2">
+                    <div className="card border-0 shadow-lg mb-2 px-5" style={{height: "12rem"}}>
                                 <img src="../../../assets/tour-guide.png" alt="..." className='w-50 mx-auto pt-2'/>
                                 <h4>Tour Guides </h4>
-                                <p className='px-5'>We work with the best tour guides to give you the experience</p>
+                                <p className=''>We work with the best tour guides to give you the experience</p>
                             </div>
                     </div>
                 </div>

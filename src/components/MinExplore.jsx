@@ -28,7 +28,7 @@ const MinExplore = () => {
                         <div class="card-body">
                             <h5 class="card-title">Fajuyi Memorial Park</h5>
                             <p class="card-text">The Fajuyi Memorial Park is situated in Ado-Ekiti, the state capital of Ekiti State. It was built in memory of the late Colonel Adekunle Fajuyi, the former military governor of the Western Region, who was killed alongside General Agunyi Ironsi during the first military coup in Nigeria. </p>
-                            <a href="/fajuyi" class="btn btn-bg text-white mt-lg-4">Learn More</a>
+                            <a href="/fajuyi" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
                     </div>

@@ -1,11 +1,17 @@
 import React from 'react'
 
 const Arinta = () => {
-  return (
-    <div>
-          <div className="container">
-            <div className="row mt-md-5">
-                <div className="col-md-6 mt-5">
+  return (   
+      <main>
+        <div style={{
+      backgroundImage: "url('../../../assets/background.png')",
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }}> 
+    <div className="container pt-md-5" >
+            <div className="row pt-md-5 ">
+                <div className="col-md-6 mt-5 ">
                         <h1 className='fs-xxxlarge'>Welcome to <br />  <span className='text-color'>Arinta Waterfall</span></h1>
                         <p className='mt-3'>Welcome to Arinta Waterfall, A spectacle cascading down rocky hills from a great height to form a flowing pool of spring water amidst natural forest vegetation.  </p>
                     </div>
@@ -16,7 +22,8 @@ const Arinta = () => {
                        </div>
                     </div>
             </div>
-          </div>
+          </div></div>
+          
             <article className='p-3 p-md-5'>
                 <h4>History</h4>
                 <p>A foremost tourist destination in Ekiti West Local Government Area of Ekiti State, Arinta Waterfalls is a natural wonder to behold in the ancient city of Ipole Iloro.
@@ -43,7 +50,7 @@ const Arinta = () => {
                 </p>
 
              </div>
-         </div>
+            </div>
             <div className="">
             <div className="container mx-auto img-fluid">
                <div className="text-center">
@@ -104,8 +111,9 @@ const Arinta = () => {
                 </ol>
 
              </div>
-         </div>
-    </div>
+           </div>
+      </main>
+   
   )
 }
 export default Arinta

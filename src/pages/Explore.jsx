@@ -4,9 +4,14 @@ import MinExplore from '../components/MinExplore'
 const Explore = () => {
   return (
     <div>
-        <main>
-            <div className="container">
-                <div className="row mt-md-5">
+        <main style={{
+      backgroundImage: "url('../../../assets/background.png')",
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }}>
+            <div className="container pt-md-5">
+                <div className="row ">
                     <div className="col-md-6 mt-5 pt-md-4">
                         <h1 className='fs-xxxlarge'>Explore your next <span className='text-color'>Vacation</span></h1>
                         <p className='mt-3'>Explore different tourist centers available in Ekiti State and choose the destination for your next vacation</p>

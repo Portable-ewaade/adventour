@@ -2,21 +2,30 @@ import React from 'react'
 
 const FajuyiExplore = () => {
   return (
-    <div>
-          <div className="container">
-            <div className="row mt-5">
-                <div className="col-md-6 mt-md-5">
+    <div>      
+      <div style={{
+      backgroundImage: "url('../../../assets/background.png')",
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }}>
+      
+      <div className="container pt-md-5">
+            <div className="row pt-5">
+                <div className="col-md-6 pt-md-5 mt-md-5 ">
                         <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Fajuyi Memorial Park</span></h1>
-                        <p>Welcome to Fajuyi Memorial Park A monument erected in honor of Colonel Adekunle Fajuyi and other fallen heroes. </p>
+                        <p>Welcome to Fajuyi Memorial Park, A monument erected in honor of Colonel Adekunle Fajuyi and other fallen heroes. </p>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 pt-md-5">
                        <div className="card border-0">
                        <img src="../../../assets/fajuyi-1.png" alt="" className='border-0'/>
                        </div>
                     </div>
             </div>
           </div>
+
+      </div>
             <article className='p-3 p-md-5'>
                 <h4>History</h4>
                 <p> Fajuyi Memorial Park is a significant historical site located in Ado-Ekiti, the capital city of Ekiti State, Nigeria. The park is named in honor of Colonel Adekunle Fajuyi, a Nigerian military officer who served as the military governor of the Western Region of Nigeria in the 1960s. Colonel Fajuyi played a prominent role in Nigeria's history, particularly during the military coup of 1966. On July 29, 1966, a group of army officers led by Major Chukwuma Kaduna Nzeogwu staged a coup, which resulted in the assassination of the Nigerian Prime Minister, Sir Abubakar Tafawa Balewa, and several other high-ranking government officials. In response, Colonel Fajuyi, who was then the military governor of the Western Region, demonstrated loyalty to the federal government by refusing to abandon the Prime Minister and other officials who were taken into custody.
