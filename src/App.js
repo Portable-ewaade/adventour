@@ -6,6 +6,16 @@ import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IkogosiExplore from './pages/IkogosiExplore';
 import FajuyiExplore from './pages/FajuyiExplore';
+import TourGuide from './pages/Tourguides/TourGuide';
+import Review from './pages/Review';
+import AboutUs from './pages/AboutUs';
+import TourRacheal from './pages/Tourguides/TourRacheal';
+import TourSegun from './pages/Tourguides/TourSegun';
+import TourGbekele from './pages/Tourguides/TourGbekele';
+import TourKehinde from './pages/Tourguides/TourKehinde';
+import TourFisayo from './pages/Tourguides/TourFisayo';
+import TourValentine from './pages/Tourguides/TourValentine';
+
 import Gallery from './pages/Gallery';
 import Arinta from './pages/Arinta';
 import EsaCave from './pages/EsaCave';
@@ -26,14 +36,6 @@ function App() {
             <Route path="/explore" element={<Explore />} />
             <Route path="/ikogosi" element={<IkogosiExplore />} />
             <Route path="/fajuyi" element={<FajuyiExplore />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/arinta" element={<Arinta />} />
-            <Route path="/esacave" element={<EsaCave />} />
-            <Route path="/erin-river" element={<ErinAyonigba />} />
-            <Route path="/olosunta" element={<OlosuntaHill />} />
-            <Route path="/orole-hills" element={<OroleHills />} />
-            <Route path="/babalola" element={<Babalola />} />
-            <Route path="/ero-dam" element={<EroDam />} />
           </Routes>
         </div>
         {/* <Footer /> */}

@@ -1,0 +1,4 @@
+.input-group input::placeholder {
+    color: white !important;
+}
+
