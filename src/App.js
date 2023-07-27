@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import Explore from './pages/Explore';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -37,6 +37,14 @@ function App() {
             <Route path="/ikogosi" element={<IkogosiExplore />} />
             <Route path="/fajuyi" element={<FajuyiExplore />} />
             <Route path='/tour' element={<TourGuide />} />
+            <Route path='/gallery' element={<Gallery />} />
+            <Route path='/arinta' element={<Arinta />} />
+            <Route path='/esacave' element={<EsaCave />} />
+            <Route path='/erinyonigb' element={<ErinAyonigba />} />
+            <Route path='/olosuntahill' element={<OlosuntaHill />} />
+            <Route path='/orolehills' element={<OroleHills />} />
+            <Route path='/babalola' element={<Babalola />} />
+            <Route path='/erodam' element={<EroDam />} />
             <Route path='/vreview' element={<Review />} />
             <Route path='/aboutus' element={<AboutUs/>}/>
             <Route path='/racheal' element={<TourRacheal/>}/>
@@ -47,7 +55,7 @@ function App() {
             <Route path='/valentine' element={<TourValentine/>}/>
           </Routes>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
