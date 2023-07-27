@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Footer.css";
+// import React from 'react'
+// import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -66,12 +66,12 @@ const Footer = () => {
                     <div className='col-6 col-md-2 menu text-white'>
                         <h4><a href="#" className='nav-link'>Home</a></h4>
                         
-                            <p><a href="/" className='nav-link'>Testimonial</a></p>
-                            <p><a href="/"className='nav-link'>Destination</a></p>
+//                             <p><a href="/" className='nav-link'>Testimonial</a></p>
+//                             <p><a href="/"className='nav-link'>Destination</a></p>
                         
-                    </div>
-                    <div className='col-6 col-md-2 menu text-white'>
-                        <h4><a href="#" className='nav-link'>About Us</a></h4>
+//                     </div>
+//                     <div className='col-6 col-md-2 menu text-white'>
+//                         <h4><a href="#" className='nav-link'>About Us</a></h4>
                         
                             <p><a href="/tour" className='nav-link'>Tour Guide</a></p>
                             <p><a href="#" className='nav-link'>Gallery</a></p>

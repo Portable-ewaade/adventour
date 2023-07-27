@@ -3,25 +3,32 @@ import React from 'react'
 const IkogosiExplore = () => {
   return (
     <div>
-          <div className="row">
-                <div className='col-12'>
-                <div id="carouselCaptions" class="carousel">
-               
-                <div class="carousel-inner">
-                    <div class="carousel-item active ">
-                    <img src="../../../assets/ikogosi-page.png" class="d-block w-100 img-fluid border-0" 
-                    alt="..."
-                    style={{ height: "33rem"}}/>
-                    <div class="carousel-caption d-md-block mb-5 pb-5">
-                       <div className="pb-md-5 mb-md-5">
-                       <h1 className='fs-xxxlarge fs-sm-xxlarge mb-5 pb-5'>Welcome to Ikogosi <br className='d-sm-none d-md-block'/> Warm Spring</h1>
+          <div style={{
+            backgroundImage: "url('../../../assets/background.png')",
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+        }}>
+            <div className="container pt-md-5">
+            <div className="row pt-md-5 mt-md-5">
+                <div className="col-md-6 mt-5">
+                        <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Ikogosi Warm Spring</span></h1>
+                        <p>Welcome to Ikogosi Warm Spring. A confluence where warm and cold spring flow side by side in the same location. </p>
+
+                        <a href="/explore">
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                  	    </a>
+                    </div>
+
+                    <div className="col-md-6">
+                       <div className="card border-0">
+                       <img src="../../../assets/ikogosi-page.png" alt="..." className='border-0'/>
                        </div>
                     </div>
-                    </div>
-                </div>
-                </div>
-                </div>
             </div>
+          </div>
+        </div>
+           
             <article className='p-3 p-md-5'>
                 <h4>History</h4>
                 <p> Ikogosi Warm Spring Ikogosi is located in Ekiti West Local Government Area. The warm spring rolls down over a hilly landscape at 70 degrees. From another hill rises a cold spring which joins the warm spring at a confluence at the end maintaining a temperature of thirty seven degrees. Together they form a continuous stream. The whole landscape with its green vegetation is fascinating. The immediate surrounding of the spring (resort centre) is about 31.38 hectares and is protected from erosion by tall evergreen trees, forming a canopy under which visitors can relax. The spring is said to have some therapeutic effects on some diseases like rheumatism and guinea worm. The undulating topography enhances the aesthetic beauty of the people of Ikogosi. The people of Ikogosi worship the goddess of the water and have strong belief in the myth around it.
@@ -119,6 +126,7 @@ const IkogosiExplore = () => {
                     <li>Eri Ayonigba River</li> 
                     <li>Fajuyi Memorial Park </li> 
                 </ol>
+                <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <span className='text-color'>here</span></h6>
 
              </div>
          </div>

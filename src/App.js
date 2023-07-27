@@ -1,11 +1,19 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import Explore from './pages/Explore';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IkogosiExplore from './pages/IkogosiExplore';
 import FajuyiExplore from './pages/FajuyiExplore';
+import Gallery from './pages/Gallery';
+import Arinta from './pages/Arinta';
+import EsaCave from './pages/EsaCave';
+import ErinAyonigba from './pages/ErinAyonigba';
+import OlosuntaHill from './pages/OlosuntaHill';
+import OroleHills from './pages/OroleHills';
+import Babalola from './pages/Babalola';
+import EroDam from './pages/Ero-dam';
 import TourGuide from './pages/Tourguides/TourGuide';
 import Review from './pages/Review';
 import AboutUs from './pages/AboutUs';
@@ -39,7 +47,7 @@ function App() {
             <Route path='/valentine' element={<TourValentine/>}/>
           </Routes>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
