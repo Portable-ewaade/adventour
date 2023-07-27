@@ -6,7 +6,7 @@ const Footer = () => {
     <section>
         <div className='container-fluid footer'>
             <div className='container'>
-                <div className='row mt-5'>
+                <div className='row mt-2'>
                     <div className='col-12 col-md-3 text-center'>
                         <img src="../../../assets/adventour.png" className="img-fluid col-6" alt="logo" />
                     </div>
