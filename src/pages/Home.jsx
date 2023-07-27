@@ -1,16 +1,20 @@
 import React from 'react'
 import Main from '../components/Main'
 import MinExplore from '../components/MinExplore'
+import './Home.css'
 
 const Home = () => {
   return (
     <div>
         {/* picture carousel */}
-       <Main />
+        <div>
+            <Main />
+        </div>
 
         {/* choose your destination */}
-
-        <MinExplore />
+        <div>
+            <MinExplore />
+        </div>
 
         {/* Gallery section */}
 
@@ -111,6 +115,43 @@ const Home = () => {
                 </div>
             </div>
         </section>
+
+    <div className='container-fluid' style={{
+        background: "url('../../../assets/typing.jpg')", 
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '450px',
+        
+    }}>
+        <div className='row' style={{background: 'rgba(0,0,0,.5)', height: '450px'}}>
+            <div className='text-center mt-5'>
+                <div className='text-center mt-5'>
+                    <h1 className="text-white fw-bold display-5">Subscribe to our Newsletter</h1>
+                    <p class="text-white fs-large">Get updates on new information and update.</p>
+                </div>           
+            </div>
+            <div className='row'>
+                <div className='col-md-7 mx-auto'>
+                    {/* <div> */}
+                        <section id="newsletter" className='text-center'>
+                            <div class="input-group mx-auto">
+                                <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" style={{
+                                    background: 'none',
+                                    height: '70px',
+                                    color: 'white'
+                                }}/>
+                                <button class="btn btn-outline-secondary red" type="button" id="button-addon2" style={{
+                                    background: 'rgb(200, 70, 70)',
+                                    color: '#fff',
+                                    width: 'auto'}}>Submit</button>
+                            </div>
+                        </section>  
+                    {/* </div> */}
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     </div>
   )
