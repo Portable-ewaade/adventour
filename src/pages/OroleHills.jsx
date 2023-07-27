@@ -78,8 +78,6 @@ const OrileHills = () => {
             </div>
             </div>
             
-
-
             <div className="p-3 px-md-5 mb-3">
             <h4>Other tourists centers close to Orole Hills</h4>
             <ol>
