@@ -6,7 +6,7 @@ const TourFisayo = () => {
         <div className='container'>
             <div className='row mt-5'>
                 <div className='col-md-6'>
-                    <p className='fw-bold display-3'>Meet Our<br/><strong className='text-color'>Tour Guides</strong></p>
+                    <h1 className='fs-xxxlarge'>Meet Our<br/><span className='text-color'>Tour Guides</span></h1>
                 </div>
                 <div className="col-md-6">
                     <img src="../../../assets/fisayo.png" className='img-fluid rounded-5' alt="..."/>
@@ -15,18 +15,18 @@ const TourFisayo = () => {
         </div>
         
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'>Name: Fisayo Oso</h6>
-            <h6 className='fs-3 fw-light'>Languages: English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'>Location: Ado-Ekiti, Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'>Years of Experience: 5 years.</h6>
+            <h6 className='fs-3 fw-light'><strong>Name:</strong> Fisayo Oso</h6>
+            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ekiti State, Nigeria</h6>
+            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
         </div>
-        <article className='m-3 p-md-5 fs-medium'>
+        <article className='m-3 p-md-5'>
             <div>
-                <h3>About Me:</h3>
+                <h4>About Me:</h4>
                 <p>Hello, fellow travelers! I'm Fisayo, your dedicated tour guide for the enchanting tourist centers of Ekiti State. With over a decade of experience, my passion for sharing the beauty and cultural heritage of this region knows no bounds. Join me on a journey of discovery, where history, nature, and warm hospitality converge.</p>
             </div>
             <div className='mt-5'>
-                <h3>Specialties:</h3>
+                <h4>Specialties:</h4>
                 <ul>
                     <li><p>Natural Wonders: From cascading waterfalls to lush forests and serene lakes, I'll guide you through Ekiti's mesmerizing natural wonders, providing insights into the unique ecology and biodiversity of the area.</p></li>
                     <li><p>Cultural Immersion: Immerse yourself in the rich cultural tapestry of Ekiti as we visit traditional villages, partake in local festivals, and witness vibrant dance and music performances.</p></li>
@@ -34,7 +34,7 @@ const TourFisayo = () => {
                 </ul>
             </div>
             <div className='mt-5'>
-                <h3>Services Offered:</h3>
+                <h4>Services Offered:</h4>
                 <ul>
                     <li><p>Guided Tours: Join me on group tours, where we'll explore multiple tourist centers in Ekiti State. Enjoy an enriching journey filled with fascinating stories and camaraderie with other travelers.</p></li>
                     <li><p>Private Tours: Tailored to your interests and preferences, experience a personalized tour designed to focus on the aspects of Ekiti that intrigue you the most.</p></li>
@@ -42,7 +42,7 @@ const TourFisayo = () => {
                 </ul>
             </div>
             <div className='mt-5'>
-                <h3>Tour Center Covered</h3>
+                <h4>Tour Center Covered</h4>
                 <ol>
                     <li><p>Ikogosi Warm Spring: Witness the mesmerizing meeting of warm and cold springs, set amidst picturesque landscapes and a serene valley.</p></li>
                     <li><p>Arinta Waterfalls: Trek through the lush forests to marvel at the cascading beauty of Arinta Waterfalls, an oasis of tranquility.</p></li>
@@ -50,7 +50,7 @@ const TourFisayo = () => {
                 </ol>
             </div>
             <div className='mt-5'>
-                <h3>Contact Information</h3>
+                <h4>Contact Information</h4>
                 <p>Email: gbekeleobaniyi16@gmail.com</p>
                 <p>Phone: +2348111319649</p>
             </div>

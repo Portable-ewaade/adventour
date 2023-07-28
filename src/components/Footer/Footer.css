@@ -27,15 +27,23 @@ a.fa-brands {
 }
 p a:hover {
     color: #fff;
-    padding: 2px;
+    padding: 1px;
+}
+p a {
+    transition: all 0.3s ease;
 }
 .socialmedias a{
     display: block;
     height: auto;
     transition: all 0.3s ease;
 }
+.smedia {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
 .socialmedias a:hover {
-    /* padding-left: 1px; */
+    padding-left: 1px;
 }
 hr.footerline {
     color: #fff;
@@ -45,25 +53,4 @@ hr.footerline {
 .rightreserved {
     text-align: center;
     color: #fff;
-}
-@media screen and (max-width:767px) {
-    #responsiveness {
-        width: 50%;
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width:574px) {
-    #responsiveness {
-        width: 100%;
-        margin-bottom: 20px;
-    }   
-}
-@media screen and (max-width: 574px) {
-    footer.footer {
-        display: flex;
-    }
-    .footerrow {
-        margin: auto;
-        text-align: center;
-    }
 }

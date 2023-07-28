@@ -6,7 +6,7 @@ const TourRacheal = () => {
         <div className='container'>
             <div className='row mt-5'>
                 <div className='col-md-6'>
-                    <h1 className='fw-bold display-3'>Meet Our<br/><strong className='text-color'>Tour Guides</strong></h1>
+                <h1 className='fs-xxxlarge'>Meet Our<br/><span className='text-color'>Tour Guides</span></h1>
                 </div>
                 <div className="col-md-6">
                     <img src="../../../assets/racheal.png" className='img-fluid rounded-3' alt="..."/>
@@ -14,19 +14,19 @@ const TourRacheal = () => {
             </div>
         </div>
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'>Name: Adeleke Adekemi Racheal</h6>
-            <h6 className='fs-3 fw-light'>Languages: English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'>Location: Ikogosi, Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'>Years of Experience: 5 years.</h6>
+            <h6 className='fs-3 fw-light'><strong>Name:</strong> Adeleke Adekemi Racheal</h6>
+            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ikogosi, Ekiti State, Nigeria</h6>
+            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
         </div>
     
-        <article className='m-3 p-md-5 fs-medium'>
+        <article className='m-3 p-md-5'>
             <div>
-                <h3>About Me:</h3>
+                <h4>About Me:</h4>
                 <p>Hello, explorers! I'm Adekemi, your passionate tour guide to the wonders of Ekiti State. With eight years of experience guiding visitors through the diverse tourist centers of this region, I am committed to providing you with an immersive and unforgettable experience during your journey.</p>
             </div>
             <div className='mt-5'>
-                <h3>Specialties:</h3>
+                <h4>Specialties:</h4>
                 <ul>
                     <li><p>Nature and Adventure: As a nature enthusiast, I'll lead you through the enchanting forests, awe-inspiring waterfalls, and scenic landscapes that make Ekiti State a haven for adventurers and nature loves alike.</p></li>
                     <li><p>Cultural Immersion: Immerse yourself in the vibrant culture of Ekiti as we visit traditional villages, attend local festivals, and interact with warm and welcoming communities.</p></li>
@@ -34,7 +34,7 @@ const TourRacheal = () => {
                 </ul>
             </div>
             <div className='mt-5'>
-                <h3>Services Offered:</h3>
+                <h4>Services Offered:</h4>
                 <ul>
                     <li><p>Guided Tours: Join a group tour led by me, where I will share intriguing stories, geological knowledge, and cultural insights while exploring the enchanting surroundings of Ikogosi Warm Spring.</p></li>
                     <li><p>Private Tours: Enjoy a personalized tour tailored to your interests, allowing you to explore at your own pace while receiving undivided attention and in-depth explanations.</p></li>
@@ -42,7 +42,7 @@ const TourRacheal = () => {
                 </ul>
             </div>
             <div className='mt-5'>
-                <h3>Tourist Center Covered</h3>
+                <h4>Tourist Center Covered</h4>
                 <ol>
                     <li><p>Arinta Waterfalls: Trek through the picturesque forests to witness the impressive cascade of Arinta Waterfalls, a perfect spot for nature lovers and hikers.</p></li>
                     <li><p>Ikogosi Warm Spring: Experience the fascinating convergence of warm and cold springs, and explore the tranquil surroundings of this geological wonder.</p></li>
@@ -50,14 +50,14 @@ const TourRacheal = () => {
                 </ol>
             </div>
             <div className='mt-5'>
-                <h3>Contact Information</h3>
+                <h4>Contact Information</h4>
                 <p>E-mail: adekemiracheal97@gmail.com</p>
                 <p>Phone: +2348167095747</p>
             </div>
 
             <div className='mt-5'>
             <div className="socialmedia">
-            <h3>Social Media</h3>
+            <h5>Social Media</h5>
                 <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
                 <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
                 <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
