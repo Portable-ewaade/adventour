@@ -10,13 +10,13 @@ const Babalola = () => {
                 backgroundPosition: 'center'
             }}>
                 <div className="container pt-md-5">
-            <div className="row mt-5 mt-md-0">
+            <div className="row pt-5 mt-md-0">
                 <div className="col-md-6 mt-md-5 pt-md-5 p-md-5">
                         <h1 className='pt-mt-5 fs-xxxlarge'>Welcome to <br /> <span className='text-color'> Babalola Cenotaph</span></h1>
                         <p>Welcome to Babaola Cenotaph A place where the legendary christian leader Apostle Joseph Ayo Babalola was buried. </p>
 
                         <a href="/explore">
-                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                     </div>
                     <div className="col-md-6 mt-md-5">
@@ -64,7 +64,7 @@ const Babalola = () => {
             
                 <div className="p-3 px-md-5 mb-3">
                 <h4>Tips to know</h4>
-                <p>Orole Hill, being a significant cultural and religious site in Ekiti State, Nigeria, may have limited commercial facilities directly around it due to its natural and sacred nature. However, there are likely some facilities available in the surrounding areas to cater to the needs of visitors. Here are some possible facilities you may find near Orole Hills:</p>
+                <p>Babalola Cenotaph, being a significant cultural and religious site in Ekiti State, Nigeria, may have limited commercial facilities directly around it due to its natural and sacred nature. However, there are likely some facilities available in the surrounding areas to cater to the needs of visitors. Here are some possible facilities you may find near Orole Hills:</p>
                 <ol>
                     <li>Accommodation: There might be lodging options available in nearby towns or cities, such as Ado-Ekiti, the capital of Ekiti State. Hotels, guesthouses, and lodges can provide accommodations for visitors who wish to explore Orole Hill and its surroundings. </li>
                     <li>Restaurants and Food Stalls: In nearby towns and villages, you can find local eateries, restaurants, and food stalls that offer a variety of traditional and local cuisine. These places may serve regional dishes and refreshments, allowing visitors to savor local flavors during their visit.</li> 

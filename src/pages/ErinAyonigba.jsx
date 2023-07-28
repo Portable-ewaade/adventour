@@ -17,7 +17,7 @@ const ErinAyonigba = () => {
                             <p>Welcome to Erin Ayonigba River <br />A sacred river that contains sacred catfish that must <br /> not be killed or cooked.</p>
 
                             <a href="/explore">
-                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                         </div>
     

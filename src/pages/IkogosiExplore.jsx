@@ -16,7 +16,7 @@ const IkogosiExplore = () => {
                         <p>Welcome to Ikogosi Warm Spring. A confluence where warm and cold spring flow side by side in the same location. </p>
 
                         <a href="/explore">
-                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Explore our Tour Guides</button>
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                     </div>
 
