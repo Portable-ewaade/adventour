@@ -69,7 +69,10 @@ p{
     margin-left: 20rem !important;
     top: -10rem !important;
 }
-
+h6 a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
 
 
 .cards-wrapper {
