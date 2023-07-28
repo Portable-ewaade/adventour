@@ -7,9 +7,8 @@ const TourGuide = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-6 mt-5'>
-                    <h1 className='fw-bold display-3'>Explore with the</h1>
-                    <h1 className='fw-bold display-3'>experienced</h1>
-                    <h1><strong className='text-color fw-bold display-3'>Tour Guides</strong></h1>
+                    <h1 className='fs-xxxlarge'>Explore with the<br />experienced</h1>
+                    <h1><span className='fs-xxxlarge text-color'>Tour Guides</span></h1>
                 </div>
                 <div className="col-md-5">
                     <img src="../../../assets/holiday.png" className='img-fluid' alt="..."/>
@@ -19,14 +18,15 @@ const TourGuide = () => {
     <section className="mt-5 pt-4 mb-2">
         <div className="container">
             <div className="text-center">
-                <h3 className='text-color fw-semibold display-6'>Choose your Tour Guide</h3>
-                <h3>We have certified and experienced, friendly and knowledgeable tour<br /> 
+                <h4 className='text-color'>Choose your Tour Guide</h4>
+                <p className='fs-5'>We have certified and experienced, friendly and knowledgeable tour<br /> 
                 guide here to lead you on an unforgettable journey through the <br/>
-                wonders of our destination.</h3>
+                wonders of our destination.</p>
             </div>
+
             <div className="row mt-5">
                 <div className="col-md-6">
-                    <div class="card shadow-lg border-4 mb-4" >
+                    <div class="card shadow-lg mb-4" >
                         <img src="../../../assets/racheal.png" class="card-img-top img-fluid" alt="..."/>
                             <div class="card-body">
                                 <h5 class="card-title">Adeleke Adekemi Racheal</h5>
@@ -37,7 +37,7 @@ const TourGuide = () => {
                      </div>
 
                 <div className="col-md-6">
-                    <div class="card shadow-lg border-4 mb-4">
+                    <div class="card shadow-lg mb-4">
                         <img src="../../../assets/segun.png" class="card-img-top" alt="..."/>
                             <div class="card-body">
                                 <h5 class="card-title">Oladapo Segun Samuel</h5>
@@ -47,7 +47,7 @@ const TourGuide = () => {
                     </div> 
                 </div>
                 <div className="col-md-6">
-                <div class="card shadow-lg border-4 mb-4">
+                <div class="card shadow-lg mb-4">
                     <img src="../../../assets/gbekele.png" class="card-img-top" alt="..."/>
                     <div class="card-body">
                         <h5 class="card-title">Oluwatogbekele Obaniyi </h5>
@@ -57,7 +57,7 @@ const TourGuide = () => {
                 </div> 
                 </div>
                 <div className="col-md-6">
-                <div class="card shadow-lg border-4 mb-4">
+                <div class="card shadow-lg mb-4">
                     <img src="../../../assets/kehinde.png" class="card-img-top" alt="..."/>
                     <div class="card-body">
                         <h5 class="card-title">Kehind Adetule</h5>
@@ -67,7 +67,7 @@ const TourGuide = () => {
                 </div> 
                 </div>
                 <div className="col-md-6">
-                <div class="card shadow-lg border-4 mb-4">
+                <div class="card shadow-lg mb-4">
                     <img src="../../../assets/fisayo.png" class="card-img-top" alt="..."/>
                     <div class="card-body">
                         <h5 class="card-title">Fisayo Oso</h5>
@@ -77,11 +77,11 @@ const TourGuide = () => {
                 </div> 
                 </div>
                 <div className="col-md-6">
-                <div class="card shadow-lg border-4 mb-4">
+                <div class="card shadow-lg mb-4">
                     <img src="../../../assets/valentine.png" class="card-img-top" alt="..."/>
                     <div class="card-body">
                         <h5 class="card-title">Valentine Ogunduyile</h5>
-                        <p class="card-text">Hello, explorers! I'm Adekemi, your passionate tour guide to the wonders of Ekiti State. With eight years of experience guiding visitors through the diverse tourist centers of this region, I am committed to providing you with an immersive and unforgettable experience during your journey.</p>
+                        <p class="card-text">Hello, explorers! I'm Valentine, your passionate tour guide to the wonders of Ekiti State. With eight years of experience guiding visitors through the diverse tourist centers of this region, I am committed to providing you with an immersive and unforgettable experience during your journey.</p>
                         <a href="/valentine" class="btn btn-bg text-white">View Profile</a>
                     </div>
                 </div> 

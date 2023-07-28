@@ -6,7 +6,7 @@ const TourGbekele = () => {
         <div className='container'>
             <div className='row mt-5'>
                 <div className='col-md-6'>
-                    <p className='fw-bold display-3'>Meet Our<br/><strong className='text-color'>Tour Guides</strong></p>
+                <h1 className='fs-xxxlarge'>Meet Our<br/><span className='text-color'>Tour Guides</span></h1>
                 </div>
                 <div className="col-md-5">
                     <img src="../../../assets/gbekele.png" className='img-fluid rounded-5' alt="..."/>
@@ -14,15 +14,15 @@ const TourGbekele = () => {
             </div>
         </div>
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'>Name: Oluwatogbekele Obaniyi</h6>
-            <h6 className='fs-3 fw-light'>Languages: English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'>Location: Ado-Ekiti, Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'>Years of Experience: 5 years.</h6>
+            <h6 className='fs-3 fw-light'><strong>Name:</strong> Oluwatogbekele Obaniyi</h6>
+            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ekiti State, Nigeria</h6>
+            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
         </div>
 
-        <article className='m-3 p-md-5 fs-medium'>
+        <article className='m-3 p-md-5'>
             <div>
-                <h3>About Me:</h3>
+                <h4>About Me:</h4>
                 <p>Hello, travelers! I'm Oluwatogbekele, your dedicated tour guide for the enchanting tourist centers of Ekiti State. With five years of experience exploring these hidden gems, I am passionate about sharing the rich cultural heritage, natural beauty, and historical significance of this vibrant state.</p>
             </div>
 
