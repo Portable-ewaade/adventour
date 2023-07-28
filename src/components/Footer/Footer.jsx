@@ -25,7 +25,7 @@ const Footer = () => {
                         <p><a href="#" className='nav-link'>Events</a></p>
                         <p><a href="#"className='nav-link'>Articles</a></p>
                     </div>
-                    <div class="w-100 d-none d-block"></div>
+                    <div class="w-100 d-none d-block mt-5"></div>
                     <div className='col-6 col-md-2 menu text-white'>
                         <h4><a href="#" className='nav-link'>Our Team</a></h4>
                             <p><a href="#" className='nav-link'>Subscribe</a></p>
@@ -35,19 +35,27 @@ const Footer = () => {
                     <div className='col-6 col-md-3'>
                         <h4><a href="#" className='nav-link text-white'>Follow Us On</a></h4>
                         <div className="socialmedias">
-                            <a href="/" className="fa-brands fa-facebook" style={{color: '#fff'}}></a>
-                            <a href="/" className="fa-brands fa-instagram" style={{color: '#fff'}}></a>
-                            <a href="/" className="fa-brands fa-twitter" style={{color: '#fff'}}></a>
-                            <a href="/" className="fa-brands fa-linkedin" style={{color: '#fff'}}></a>
-                            <a href="/" className="fa-brands fa-whatsapp" style={{color: '#fff'}}></a>
+                            <a href="/" className='smedia'> <i className="fa-brands fa-facebook"></i>   Facebook</a>
+                            <a href="/" className='smedia'><i className="fa-brands fa-instagram"></i>   Instagram</a>
+                            <a href="/" className='smedia'><i className="fa-brands fa-twitter"></i>   Twitter</a>
+                            <a href="/" className='smedia'><i className="fa-brands fa-linkedin"></i>   LinkedIn</a>
                         </div>
                     </div>
                 </div>
-                    <hr class="border border-white border-2 "></hr>
-                    <h6 className='rightreserved'>&copy; Adventour, 2023. All Rights Reserved</h6>
+                <div className="container mt-3">
+                    <div className="col-6 text-white">
+                        <h5 className='fw-normal'>For questioning and booking,<br/> please contact:</h5>
+                        <h5 className='fw-normal'>E-mail: info@adventour.com</h5>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <hr class="border border-white border-2 "></hr>
+                <h6 className='rightreserved'>&copy; Adventour, 2023. All Rights Reserved</h6>
             </div>
         </div>
     </section>
   )
 }
+
 export default Footer
