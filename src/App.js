@@ -45,7 +45,7 @@ function App() {
             <Route path='/orole-hills' element={<OroleHills />} />
             <Route path='/babalola' element={<Babalola />} />
             <Route path='/ero-dam' element={<EroDam />} />
-            <Route path='/vreview' element={<Review />} />
+            <Route path='/review' element={<Review />} />
             <Route path='/aboutus' element={<AboutUs/>}/>
             <Route path='/racheal' element={<TourRacheal/>}/>
             <Route path='/segun' element={<TourSegun/>}/>

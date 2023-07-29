@@ -28,7 +28,7 @@ const Navbar = () => {
                     <a class="nav-link text-black " href="/tour">Tourguides</a>
                     </li>
                     <li class="nav-item mx-md-4 ">
-                    <a class="nav-link text-black " href="/vreview">Review</a>
+                    <a class="nav-link text-black " href="/review">Review</a>
                     </li>
                 </ul>
                 

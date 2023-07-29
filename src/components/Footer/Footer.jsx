@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
                 <div className="container mt-3">
                     <div className="col-6 text-white">
-                        <h5 className='fw-normal'>For questioning and <br/>booking, please contact:</h5>
+                        <h5 className='fw-normal'>For questioning and <br className='d-none d-md-block'/>booking, please contact:</h5>
                         <h5 className='fw-normal'>E-mail : info@adventour.com</h5>
                         
                     </div>
