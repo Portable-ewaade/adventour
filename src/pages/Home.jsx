@@ -165,46 +165,107 @@ const Home = () => {
                 </div>
             </div>
         </section>
+         {/* feedback */}
+         <section className="pt-2  ">
+        <div className="container">
+                <div className="text-center">
+                    <h5 className='text-color mt-5'>What our tourists say</h5>
+                    <h2 className='mb-4'>Feedback from our various tourists</h2>
+                </div>
+                <div className='position-relative'>
+                    <div className="pt-5 mt-4">
+                        <div id="carouselExampleAutoplayingcard" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active text-center ">
+                                        <div className="card ms-auto feedback-bg text-white border-0 p-md-4 py-5" >
+                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
+                                        
+                                        <h6>Samuel Oladimeji</h6>
+                                        <h6>Ado-Ekiti</h6>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active text-center">
+                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
+                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one. </p>
+                                        <h6>Samuel Oladimeji</h6>
+                                        <h6>Ado-Ekiti</h6>
+                                    </div>
+                                </div>
+                                <div class="carousel-item text-center">
+                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
+                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
+                                        <h6>Samuel Oladimeji</h6>
+                                        <h6>Ado-Ekiti</h6>
+                                    </div>
+                                </div>
+                                <div class="carousel-item text-center">
+                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
+                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
+                                        <h6>Samuel Oladimeji</h6>
+                                        <h6>Ado-Ekiti</h6>
+                                    </div>
+                                </div>
 
-    <div id='subscribe' className='container-fluid' style={{
-        background: "url('../../../assets/typing.jpg')", 
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '450px',
-        
-    }}>
-        <div className='row' style={{background: 'rgba(0,0,0,.5)', height: '450px'}}>
-            <div className='text-center mt-5'>
-                <div className='text-center mt-5'>
-                    <h1 className="text-white fw-bold display-5">Subscribe to our Newsletter</h1>
-                    <p class="text-white fs-large">Get updates on new information and update.</p>
-                </div>           
-            </div>
-            <div className='row'>
-                <div className='col-md-7 mx-auto'>
-                    {/* <div> */}
-                        <section id="newsletter" className='text-center'>
-                            <div class="input-group mx-auto">
-                                <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" style={{
-                                    background: 'none',
-                                    height: '70px',
-                                    color: 'white'
-                                }}/>
-                                <button class="btn btn-outline-secondary red" type="button" id="button-addon2" style={{
-                                    background: 'rgb(200, 70, 70)',
-                                    color: '#fff',
-                                    width: 'auto'}}>Submit</button>
+                                    
                             </div>
-                        </section>  
-                    {/* </div> */}
+                            
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingcard" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingcard" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                            </div>
+                    </div>
+                      
+                    <div className="circle position-absolute mt-5 top-0 start-50 translate-middle">
+                      <h2 className='pt-4 fs-xxxlarge'>SO</h2>
+                     </div>
+                </div>
+            </div>
+            
+        </section>
+        
+            {/* newsletter */}
+        <div id='subscribe' className='container-fluid mt-5' style={{
+            background: "url('../../../assets/typing.jpg')", 
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            height: '450px',
+            
+        }}>
+            <div className='row' style={{background: 'rgba(0,0,0,.5)', height: '450px'}}>
+                <div className='text-center mt-5'>
+                    <div className='text-center mt-5'>
+                        <h1 className="text-white fw-bold display-5">Subscribe to our Newsletter</h1>
+                        <p class="text-white fs-large">Get updates on new information and update.</p>
+                    </div>           
+                </div>
+                <div className='row'>
+                    <div className='col-md-7 mx-auto'>
+                        {/* <div> */}
+                            <section id="newsletter" className='text-center'>
+                                <div class="input-group mx-auto">
+                                    <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" style={{
+                                        background: 'none',
+                                        height: '70px',
+                                        color: 'white'
+                                    }}/>
+                                    <button class="btn btn-outline-secondary red" type="button" id="button-addon2" style={{
+                                        background: 'rgb(200, 70, 70)',
+                                        color: '#fff',
+                                        width: 'auto'}}>Submit</button>
+                                </div>
+                            </section>  
+                        {/* </div> */}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-    </div>
   )
 }
-
+// https://documenter.getpostman.com/view/27418776/2s946o399t
 export default Home

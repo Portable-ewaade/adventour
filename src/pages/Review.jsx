@@ -71,3 +71,180 @@ const ValReview = () => {
 }
 
 export default ValReview
+
+
+
+
+// import { useState } from "react";
+// import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+
+// const Review = () => {
+//     const [title, setTitle] = useState('');
+//     const [body, setBody] = useState('');
+//     const [author, setAuthor] = useState('mario');
+//     const [isPending, setIsPending] = useState(false);
+//     const history = useHistory();
+
+//     const handleSubmit = (e) => {
+//         e.preventDefault();
+//         const blog = { title, body, author}
+
+//         setIsPending(true)
+
+//         fetch('https://documenter.getpostman.com/view/27418776/2s946o399t', {
+//             method: 'POST',
+//             headers: {"Content-Type": "application/json"},
+//             body: JSON.stringify(blog)
+//         }).then(() => {
+//             console.log('new blog added')
+//             setIsPending(false);        
+//             history.go(-1)
+//             history.push('/');
+//         });
+
+//     }
+
+//     return (
+//         <div className="review">
+//             <h2>Add a New Blog</h2>
+//             <form onSubmit={handleSubmit}>
+//                 <label> Blog title:</label>
+//                 <input 
+//                 type="text"
+//                 required
+//                 value={title}
+//                 onChange={(e) => setTitle(e.target.value)}
+//                 />
+//                 <label> Blog body:</label>
+//                 <textarea
+//                 required
+//                 value={body}
+//                 onChange={(e) => setBody(e.target.value)}
+//                 ></textarea>
+                
+//                 <label> Blog author:</label>
+//                 <select value={author} onChange={(e) => setAuthor(e.target.value)}>
+//                     <option value="mario">mario</option>
+//                     <option value="yoshi">yoshi</option>
+//                 </select>
+//                 { !isPending && <button>Add Blog</button>}
+//                 { isPending && <button disabled>Adding blog...</button>}
+                
+//             </form>
+//         </div>
+//      );
+// }
+ 
+// export default Review
+
+
+
+
+
+// import React, { useState } from 'react';
+// import axios from 'axios';
+
+// const FeedbackForm = () => {
+//   const [formData, setFormData] = useState({
+//     fullName: '',
+//     locationVisited: '',
+//     message: '',
+//   });
+
+//   const [submitted, setSubmitted] = useState(false);
+
+//   const handleChange = (event) => {
+//     const { name, value } = event.target;
+//     setFormData({
+//       ...formData,
+//       [name]: value,
+//     });
+//   };
+
+//   const handleSubmit = async (event) => {
+//     event.preventDefault();
+
+//     try {
+//       // Replace 'YOUR_API_ENDPOINT' with your actual backend API endpoint
+//       const response = await axios.post('https://documenter.getpostman.com/view/27418776/2s946o399t', formData);
+//       console.log(response.data); // Log the response from the backend if needed
+
+//       setSubmitted(true);
+//     } catch (error) {
+//       console.error(error);
+//       // Handle error scenario if required
+//     }
+//   };
+
+//   return (
+//     <section className="pt-2">
+//       <div className="container">
+//         <div className="text-center">
+//           <h5 className="text-color mt-5">What our tourists say</h5>
+//           <h2 className="mb-4">Feedback from our various tourists</h2>
+//         </div>
+//         <div className="position-relative">
+//           <div className="pt-5 mt-4">
+//             {submitted ? (
+//               <div className="alert alert-success text-center" role="alert">
+//                 Thank you for your review!
+//               </div>
+//             ) : (
+//               <form onSubmit={handleSubmit}>
+//                 <div className="mb-3">
+//                   <label htmlFor="fullName" className="form-label">
+//                     Full Name
+//                   </label>
+//                   <input
+//                     type="text"
+//                     className="form-control"
+//                     id="fullName"
+//                     name="fullName"
+//                     value={formData.fullName}
+//                     onChange={handleChange}
+//                     required
+//                   />
+//                 </div>
+//                 <div className="mb-3">
+//                   <label htmlFor="locationVisited" className="form-label">
+//                     Location Visited
+//                   </label>
+//                   <input
+//                     type="text"
+//                     className="form-control"
+//                     id="locationVisited"
+//                     name="locationVisited"
+//                     value={formData.locationVisited}
+//                     onChange={handleChange}
+//                     required
+//                   />
+//                 </div>
+//                 <div className="mb-3">
+//                   <label htmlFor="message" className="form-label">
+//                     Message
+//                   </label>
+//                   <textarea
+//                     className="form-control"
+//                     id="message"
+//                     name="message"
+//                     value={formData.message}
+//                     onChange={handleChange}
+//                     required
+//                   />
+//                 </div>
+//                 <button type="submit" className="btn btn-primary">
+//                   Submit
+//                 </button>
+//               </form>
+//             )}
+//           </div>
+//           <div className="circle position-absolute mt-5 top-0 start-50 translate-middle">
+//             <h2 className="pt-4 fs-xxxlarge">SO</h2>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default FeedbackForm;

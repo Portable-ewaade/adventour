@@ -73,8 +73,21 @@ h6 a {
     text-decoration: none;
     text-decoration-line: none;
 }
-
-
+.feedback-bg{
+    background-color: #C7923E
+    ;
+}
+.circle{
+    width: 110px;
+    height: 110px;
+    background-color: #FAF0E1;
+    border-radius: 100%;
+    text-align: center;
+    color: #C7923E;
+    position: absolute;
+    /* top: 3rem; */
+    /* align-items: center; */
+}
 .cards-wrapper {
     display: flex;
     justify-content: center;
