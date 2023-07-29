@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className='col-12 col-md-3 text-center'>
                         <img src="../../../assets/adventour.png" className="img-fluid col-6" alt="logo" />
                     </div>
-                    <hr className='border border-white border-2 '/>
+                    <hr className='border border-white border-2 d-md-none d-block'/>
                     <div className='col-6 col-md-2 menu text-white'>
                         <h4><a href="/" className='nav-link'>Home</a></h4>
                         
@@ -27,7 +27,7 @@ const Footer = () => {
                         <p><a href="#"className='nav-link'>Articles</a></p>
                     </div>
                     <div class="w-100 d-none d-block mt-5"></div>
-                    <hr className='border border-white border-2 '/>
+                    <hr className='border border-white border-2 d-md-none d-block'/>
                     <div className='col-6 col-md-2 menu text-white'>
 
                         <h4><a href="/tour" className='nav-link'>Our Team</a></h4>
@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <hr class="border border-white border-2 "></hr>
+                <hr class="border border-white border-2 d-md-none d-block "></hr>
                 <h6 className='rightreserved'>&copy; Adventour, 2023. All Rights Reserved</h6>
             </div>
         </div>
