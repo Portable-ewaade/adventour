@@ -39,7 +39,7 @@ const MinExplore = () => {
                         <div class="card-body">
                             <h5 class="card-title">Olosunta Hill</h5>
                             <p class="card-text">The Olosunta Hills are located in Ikere – Ekiti Local Government Area of Ekiti State. They are sacred hills, worshipped every year for 9 days, the festival draws tourists from far and wide. The Olusonta rock is unlike other rocks that tourist troop for relaxation.</p>
-                            <a href="/olosunta" class="btn btn-bg text-white">Learn More</a>
+                            <a href="/olosuntahill" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
                     </div>
