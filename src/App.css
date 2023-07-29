@@ -85,6 +85,7 @@ h6 a {
     text-align: center;
     color: #C7923E;
     position: absolute;
+    z-index: 2;
     /* top: 3rem; */
     /* align-items: center; */
 }
@@ -116,3 +117,8 @@ h6 a {
       height: 11em;
     }
   }
+
+  .carousel-inner.overflow-none{
+    overflow:visible !important;
+
+}

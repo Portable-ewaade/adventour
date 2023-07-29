@@ -167,46 +167,52 @@ const Home = () => {
         </section>
          {/* feedback */}
          <section className="pt-2  ">
-        <div className="container">
-                <div className="text-center">
+        <div className="container ">
+                <div className="text-center ">
                     <h5 className='text-color mt-5'>What our tourists say</h5>
                     <h2 className='mb-4'>Feedback from our various tourists</h2>
                 </div>
-                <div className='position-relative'>
-                    <div className="pt-5 mt-4">
+                <div className=''>
+                    <div className="pt-5 mt-4 ">
                         <div id="carouselExampleAutoplayingcard" class="carousel slide " data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner overflow-none ">
                                 <div class="carousel-item active text-center ">
-                                        <div className="card ms-auto feedback-bg text-white border-0 p-md-4 py-5" >
+                                       <div className="wrap position relative">
+                                       <div className="card ms-auto feedback-bg text-white border-0 p-md-4 py-5" >
                                         <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
                                         
                                         <h6>Samuel Oladimeji</h6>
                                         <h6>Ado-Ekiti</h6>
-                                    </div>
+                                       
+                                        </div>
+                                        <div className="circle position-absolute  top-0 start-50 translate-middle">
+                                            <h2 className='pt-4 fs-xxxlarge'>SO</h2>
+                                        </div>
+                                       </div>
                                 </div>
                                 <div class="carousel-item active text-center">
                                         <div className="card feedback-bg text-white border-0 p-md-4 py-5">
-                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one. </p>
-                                        <h6>Samuel Oladimeji</h6>
-                                        <h6>Ado-Ekiti</h6>
-                                    </div>
-                                </div>
-                                <div class="carousel-item text-center">
-                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
-                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
-                                        <h6>Samuel Oladimeji</h6>
-                                        <h6>Ado-Ekiti</h6>
-                                    </div>
-                                </div>
-                                <div class="carousel-item text-center">
-                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
-                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
-                                        <h6>Samuel Oladimeji</h6>
-                                        <h6>Ado-Ekiti</h6>
-                                    </div>
-                                </div>
+                                        <p className='pt-md-5 pt-4'>I recently visited the Ikogosi Warm Spring and I used the tour guide service and i must commend that itwas a memorable one. Our guide was extremely knowledgeable and passionate about the history and culture of the Spring. </p>
+                                        <h6>Rhoda Ayomide</h6>
+                                        <h6>EKSU student</h6>
 
-                                    
+                                        <div className="circle position-absolute  top-0 start-50 translate-middle">
+                                            <h2 className='pt-4 fs-xxxlarge'>RA</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item text-center">
+                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
+                                        <p className='pt-md-5 pt-4'>My husband and I went on a vacation to Arinta Waterfalls. We used the tour guide service. From the moment we were picked up from our hotel, our tour guide went above and beyond to ensure our tour experience was an interesting one. He was always willing to answer our questions and making the tour not only informative but also incredibly fun.</p>
+                                        <h6>Dorcas Adeleke</h6>
+                                        <h6>Ondo State</h6>
+
+                                        <div className="circle position-absolute  top-0 start-50 translate-middle ">
+                                            <h2 className='pt-4 fs-xxxlarge'>DA</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                                              
                             </div>
                             
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingcard" data-bs-slide="prev">
@@ -220,9 +226,9 @@ const Home = () => {
                             </div>
                     </div>
                       
-                    <div className="circle position-absolute mt-5 top-0 start-50 translate-middle">
+                    {/* <div className="circle position-absolute mt-5 top-0 start-50 translate-middle">
                       <h2 className='pt-4 fs-xxxlarge'>SO</h2>
-                     </div>
+                     </div> */}
                 </div>
             </div>
             

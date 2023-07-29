@@ -133,7 +133,7 @@ const FajuyiExplore = () => {
                 <ol>
                     <li>Arinta Waterfall</li>
                     <li>Eri Ayonigba River</li> 
-                    <li>Fajuyi Memorial Park </li> 
+                     
                 </ol>
                 <h6>Do you enjoy what you read? Are u ready to explore with us? If yes, Click <a href="/tour"><span className='text-color'>here</span></a></h6>
 

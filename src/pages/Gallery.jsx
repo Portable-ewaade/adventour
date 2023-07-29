@@ -4,6 +4,9 @@ const Gallery = () => {
   return (
     <div id='gallery' >
         <div className="container" >
+            <div className="text-center mt-3">
+            <h1>Gallery</h1>
+            </div>
             <div className="row mt-5">
                 <div className="col-md-6 mb-4">
                     <div className="card border-0">

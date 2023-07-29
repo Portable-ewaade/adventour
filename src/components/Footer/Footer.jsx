@@ -45,7 +45,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr className='border border-white border-2 ' />
+                <hr className='border border-white border-2 d-md-none d-block' />
                 <div className="container mt-3">
                     <div className="col-6 text-white">
                         <h5 className='fw-normal'>For questioning and <br className='d-none d-md-block'/>booking, please contact:</h5>
@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <hr class="border border-white border-2 d-md-none d-block "></hr>
+                <hr class="border border-white border-2 "></hr>
                 <h6 className='rightreserved'>&copy; Adventour, 2023. All Rights Reserved</h6>
             </div>
         </div>
