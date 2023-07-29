@@ -56,14 +56,14 @@ const ValReview = () => {
           </form>
         </div>
         <div>
-          <div className="socialmedia mt-5 mb-5">
+          {/* <div className="socialmedia mt-5 mb-5">
                 <h4>Social Media</h4>
                 <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
                 <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
                 <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
                 <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
                 <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
