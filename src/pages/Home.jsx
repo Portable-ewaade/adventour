@@ -166,7 +166,7 @@ const Home = () => {
             </div>
         </section>
 
-    <div className='container-fluid' style={{
+    <div id='subscribe' className='container-fluid' style={{
         background: "url('../../../assets/typing.jpg')", 
         backgroundSize: 'cover',
         backgroundPosition: 'center',

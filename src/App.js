@@ -40,11 +40,11 @@ function App() {
             <Route path='/gallery' element={<Gallery />} />
             <Route path='/arinta' element={<Arinta />} />
             <Route path='/esacave' element={<EsaCave />} />
-            <Route path='/erinyonigb' element={<ErinAyonigba />} />
+            <Route path='/erin-river' element={<ErinAyonigba />} />
             <Route path='/olosuntahill' element={<OlosuntaHill />} />
-            <Route path='/orolehills' element={<OroleHills />} />
+            <Route path='/orole-hills' element={<OroleHills />} />
             <Route path='/babalola' element={<Babalola />} />
-            <Route path='/erodam' element={<EroDam />} />
+            <Route path='/ero-dam' element={<EroDam />} />
             <Route path='/vreview' element={<Review />} />
             <Route path='/aboutus' element={<AboutUs/>}/>
             <Route path='/racheal' element={<TourRacheal/>}/>

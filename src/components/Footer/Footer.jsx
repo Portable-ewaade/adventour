@@ -11,24 +11,25 @@ const Footer = () => {
                         <img src="../../../assets/adventour.png" className="img-fluid col-6" alt="logo" />
                     </div>
                     <div className='col-6 col-md-2 menu text-white'>
-                        <h4><a href="#" className='nav-link'>Home</a></h4>
+                        <h4><a href="/" className='nav-link'>Home</a></h4>
                         
                         <p><a href="/" className='nav-link'>Testimonial</a></p>
-                        <p><a href="/"className='nav-link'>Destination</a></p>
+                        <p><a href="/explore"className='nav-link'>Destination</a></p>
                         
                     </div>
                     <div className='col-6 col-md-2 menu text-white'>
-                        <h4><a href="#" className='nav-link'>About Us</a></h4>
+                        <h4><a href="/aboutus" className='nav-link'>About Us</a></h4>
                         
                         <p><a href="/tour" className='nav-link'>Tour Guide</a></p>
-                        <p><a href="#" className='nav-link'>Gallery</a></p>
+                        <p><a href="/gallery" className='nav-link'>Gallery</a></p>
                         <p><a href="#" className='nav-link'>Events</a></p>
                         <p><a href="#"className='nav-link'>Articles</a></p>
                     </div>
                     <div class="w-100 d-none d-block mt-5"></div>
                     <div className='col-6 col-md-2 menu text-white'>
-                        <h4><a href="#" className='nav-link'>Our Team</a></h4>
-                            <p><a href="#" className='nav-link'>Subscribe</a></p>
+
+                        <h4><a href="/tour" className='nav-link'>Our Team</a></h4>
+                            <p><a href="/#subscribe" className='nav-link'>Subscribe</a></p>
                             <p><a href="#" className='nav-link'>Contact Us</a></p>
                             <p><a href="/vreview" className='nav-link'>Leave a review</a></p>
                     </div>
@@ -44,8 +45,9 @@ const Footer = () => {
                 </div>
                 <div className="container mt-3">
                     <div className="col-6 text-white">
-                        <h5 className='fw-normal'>For questioning and booking,<br/> please contact:</h5>
-                        <h5 className='fw-normal'>E-mail: info@adventour.com</h5>
+                        <h5 className='fw-normal'>For questioning and <br/>booking, please contact:</h5>
+                        <h5 className='fw-normal'>E-mail : info@adventour.com</h5>
+                        
                     </div>
                 </div>
             </div>

@@ -50,8 +50,8 @@ const TourKehinde = () => {
             </div>
             <div className='mt-5'>
                 <h4>Contact Information</h4>
-                <p>Email: gbekeleobaniyi16@gmail.com</p>
-                <p>Phone: +2349035619495</p>
+                <p>Email: portableewaade@gmail.com</p>
+                <p>Phone: +2349064656492</p>
             </div>
 
             <div className='mt-5'>

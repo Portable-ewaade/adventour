@@ -7,14 +7,14 @@ const ValReview = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-md-6 mt-5'>
-            <h1 className='fs-xxxlarge'>Drop your<br/>comments and<br/>suggestions</h1>
+            <h1 className='fs-xxxlarge mt-md-5'>Drop your review <br /> and feedback</h1> 
           </div>
-          <div className='col-md-6'>
+          <div className='col-md-6 mt-md-5'>
             <img src='../../../assets/dating-app.png' className='img-fluid' alt='...'/>
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container ">
         <div className='text-center'>
           <article className='mb-3'>
             <h1>Get in Touch</h1>
@@ -22,7 +22,7 @@ const ValReview = () => {
           </article>
         </div>
         <div className='mt-5'>
-          <form action='/reviews.php' autoComplete='on' className='pt-5'>
+          <form action='/reviews.php' autoComplete='on' className='pt-5 '>
             <div class="col-md-6">
               <label for="inputFullname" class="form-label fs-3">Full Name</label>
               <input type="text" class="form-control border-1" id="fullName" placeholder="Input your first name" style={{height: '60px'}} required/>
