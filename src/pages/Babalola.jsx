@@ -15,7 +15,7 @@ const Babalola = () => {
                         <h1 className='pt-mt-5 fs-xxxlarge'>Welcome to <br /> <span className='text-color'> Babalola Cenotaph</span></h1>
                         <p>Welcome to Babaola Cenotaph A place where the legendary christian leader Apostle Joseph Ayo Babalola was buried. </p>
 
-                        <a href="/explore">
+                        <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                     </div>

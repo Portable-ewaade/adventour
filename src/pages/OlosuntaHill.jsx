@@ -15,7 +15,7 @@ const OlosuntaHill = () => {
                     <h1 className='pt-mt-5 fs-xxxlarge'>Welcome to <br /> <span className='text-color'> Olosunta Hills</span></h1>
                     <p>Welcome to Olosunta Hills prominent rocky outcrop that rises above the surrounding landscape.</p>
                     
-                    <a href="/explore">
+                    <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	</a>
                 </div>

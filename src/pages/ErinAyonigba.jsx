@@ -16,7 +16,7 @@ const ErinAyonigba = () => {
                             <h1 className='fs-larger'>Welcome to <br /> <span className='text-color'> Erin Ayonigba River</span></h1>
                             <p>Welcome to Erin Ayonigba River <br />A sacred river that contains sacred catfish that must <br /> not be killed or cooked.</p>
 
-                            <a href="/explore">
+                            <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                         </div>

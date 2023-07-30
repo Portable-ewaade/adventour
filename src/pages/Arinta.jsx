@@ -15,7 +15,7 @@ const Arinta = () => {
                         <h1 className='fs-xxxlarge'>Welcome to <br />  <span className='text-color'>Arinta Waterfall</span></h1>
                         <p className='mt-3'>Welcome to Arinta Waterfall, A spectacle cascading down rocky hills from a great height to form a flowing pool of spring water amidst natural forest vegetation.  </p>
 
-                        <a href="/explore">
+                        <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                     </div>

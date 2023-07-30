@@ -15,7 +15,7 @@ const IkogosiExplore = () => {
                         <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Ikogosi Warm Spring</span></h1>
                         <p>Welcome to Ikogosi Warm Spring. A confluence where warm and cold spring flow side by side in the same location. </p>
 
-                        <a href="/explore">
+                        <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                     </div>

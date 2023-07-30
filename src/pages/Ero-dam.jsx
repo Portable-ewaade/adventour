@@ -15,7 +15,7 @@ const EroDam = () => {
                             <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Ero Dam</span></h1>
                             <p>Welcome to Ero dam. A spectacle cascading down rocky hills from a great height to form a flowing pool of spring water amidst natural forest vegetation. </p>
 
-                            <a href="/explore">
+                            <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                         </div>

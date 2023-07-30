@@ -16,7 +16,7 @@ const OrileHills = () => {
                     <h1 className='pt-mt-5 fs-xxxlarge'>Welcome to <br /> <span className='text-color'> Orole Hills</span></h1>
                     <p>Welcome to Orole Hills A rock that stands tall and offers scenic views of the surrounding landscape. </p>
 
-                    <a href="/explore">
+                    <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                 </div>

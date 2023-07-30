@@ -16,7 +16,7 @@ const FajuyiExplore = () => {
                         <h1 className='fs-larger'>Welcome to <br />  <span className='text-color'>Fajuyi Memorial Park</span></h1>
                         <p>Welcome to Fajuyi Memorial Park, A monument erected in honor of Colonel Adekunle Fajuyi and other fallen heroes. </p>
 
-                        <a href="/explore">
+                        <a href="/tour">
                           <button class="btn btn-bg text-white fs-small py-2 px-4 mb-4" >Get a Tour Guide</button>
                   	    </a>
                     </div>
