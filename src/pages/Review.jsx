@@ -7,7 +7,7 @@ const ValReview = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-md-6 mt-5'>
-            <h1 className='fs-xxxlarge mt-md-5'>Drop your review <br /> and feedback</h1> 
+            <h1 className='fs-xxxlarge mt-md-5'>Drop your review <br className='d-none d-md-block' /> and feedback</h1> 
           </div>
           <div className='col-md-6 mt-md-5'>
             <img src='../../../assets/dating-app.png' className='img-fluid' alt='...'/>

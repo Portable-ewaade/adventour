@@ -22,7 +22,7 @@ const Navbar = () => {
                     <a class="nav-link text-black" href="/aboutus">About</a>
                     </li>
                     <li class="nav-item mx-md-4 ">
-                    <a class="nav-link " href="/gallery">Gallery</a>
+                    <a class="nav-link  text-black" href="/gallery">Gallery</a>
                     </li>
                     <li class="nav-item mx-md-4 ">
                     <a class="nav-link text-black " href="/tour">Tourguides</a>

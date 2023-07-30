@@ -7,7 +7,7 @@ const TourGuide = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-6 mt-5'>
-                    <h1 className='fs-xxxlarge'>Explore with our<br className='d-none d-md-block' />experienced</h1>
+                    <h1 className='fs-xxlarge mt-3'>Explore with our <br className='d-none d-md-block' />experienced</h1>
                     <h1><span className='fs-xxxlarge text-color'>Tour Guides</span></h1>
                 </div>
                 <div className="col-md-5">
