@@ -23,15 +23,15 @@ const Footer = () => {
                         
                         <p><a href="/tour" className='nav-link'>Tour Guide</a></p>
                         <p><a href="/gallery" className='nav-link'>Gallery</a></p>
-                        <p><a href="#" className='nav-link'>Events</a></p>
-                        <p><a href="#"className='nav-link'>Articles</a></p>
+                        
                     </div>
                     <div class="w-100 d-none d-block mt-5"></div>
                     <hr className='border border-white border-2 d-md-none d-block'/>
                     <div className='col-6 col-md-2 menu text-white'>
 
-                        <h4><a href="/tour" className='nav-link'>Our Team</a></h4>
-                            <p><a href="/#subscribe" className='nav-link'>Subscribe</a></p>
+                        <h4>
+                            <a href="/tour" className='nav-link'>Our Team</a></h4>
+            
                             <p><a href="#" className='nav-link'>Contact Us</a></p>
                             <p><a href="/review" className='nav-link'>Leave a review</a></p>
                     </div>
