@@ -38,8 +38,8 @@ const MinExplore = () => {
                         <img src="../../../assets/osunta.png" class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <h5 class="card-title">Olosunta Hill</h5>
-                            <p class="card-text">The Olosunta Hills are located in Ikere – Ekiti Local Government Area of Ekiti State. They are sacred hills, worshipped every year for 9 days, the festival draws tourists from far and wide. The Olusonta rock is unlike other rocks that tourist troop for relaxation.</p>
-                            <a href="/olosuntahill" class="btn btn-bg text-white">Learn More</a>
+                            <p class="card-text">The Olosunta Hills are located in Ikere – Ekiti Local Government Area of Ekiti State. They are sacred hills, worshipped every year for 9 days, the festival draws tourists from far and wide. The Olosunta rock is unlike other rocks that tourist troop for relaxation.</p>
+                            <a href="/olosuntahill" class="btn btn-bg text-white mb-4">Learn More</a>
                         </div>
                     </div> 
                     </div>
@@ -49,7 +49,7 @@ const MinExplore = () => {
                         <img src="../../../assets/ikogosi.png" class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <h5 class="card-title">Ikogosi Warm Spring</h5>
-                            <p class="card-text">Ikogosi is a small quiet town in Ekiti West Local Government area of Ekiti State, which has been catapulted to national and international limelight because of the presence of warm andcold springs flowing side by side in the town. The spring is known as the “Ikogosi Warm Spring”.</p>
+                            <p class="card-text">Ikogosi is a small quiet town in Ekiti West Local Government area of Ekiti State, which has been catapulted to national and international limelight because of the presence of warm and cold springs flowing side by side in the town. The spring is known as the “Ikogosi Warm Spring”.</p>
                             <a href="/ikogosi" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
