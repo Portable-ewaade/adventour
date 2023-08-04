@@ -51,18 +51,18 @@ const TourFisayo = () => {
             </div>
             <div className='mt-5'>
                 <h4>Contact Information</h4>
-                <p>Email: gbekeleobaniyi16@gmail.com</p>
+                <p>Email: fisayooso@gmail.com</p>
                 <p>Phone: +2348111319649</p>
             </div>
 
             <div className='mt-5'>
             <div className="socialmedia">
             <h5>Social Media</h5>
-                <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                <a href="https://www.facebook.com/fisayo.oso?mibextid=ZbWKwL" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
+                <a href="www.instagram.com/carolinecouture_ng/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
+                <a href=" " className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
+                <a href="https://www.linkedin.com/in/fisayo-oso-356ab116a" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
+                <a href=" " className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
             </div>
             </div>
         </article>

@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className='col-6 col-md-2 menu text-white'>
                         <h4><a href="/" className='nav-link'>Home</a></h4>
                         
-                        <p><a href="/" className='nav-link'>Testimonial</a></p>
+                        <p><a href=" " className='nav-link'>Testimonial</a></p>
                         <p><a href="/explore"className='nav-link'>Destination</a></p>
                         
                     </div>
@@ -32,16 +32,16 @@ const Footer = () => {
                         <h4>
                             <a href="/tour" className='nav-link'>Our Team</a></h4>
             
-                            <p><a href="#" className='nav-link'>Contact Us</a></p>
+                            <p><a href=" " className='nav-link'>Contact Us</a></p>
                             <p><a href="/review" className='nav-link'>Leave a review</a></p>
                     </div>
                     <div className='col-6 col-md-3'>
-                        <h4><a href="#" className='nav-link text-white'>Follow Us On</a></h4>
+                        <h4 className='text-white'>Follow Us</h4>
                         <div className="socialmedias">
                             <a href="/" className='smedia'> <i className="fa-brands fa-facebook"></i>   Facebook</a>
-                            <a href="/" className='smedia'><i className="fa-brands fa-instagram"></i>   Instagram</a>
+                            <a href="https://instagram.com/adventour_ekiti?igshid=MzNlNGNkZWQ4Mg==" className='smedia'><i className="fa-brands fa-instagram"></i>   Instagram</a>
                             <a href="/" className='smedia'><i className="fa-brands fa-twitter"></i>   Twitter</a>
-                            <a href="/" className='smedia'><i className="fa-brands fa-linkedin"></i>   LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/adventour-ekiti-a63126286" className='smedia'><i className="fa-brands fa-linkedin"></i>   LinkedIn</a>
                         </div>
                     </div>
                 </div>

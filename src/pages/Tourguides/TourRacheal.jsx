@@ -58,11 +58,11 @@ const TourRacheal = () => {
             <div className='mt-5'>
             <div className="socialmedia">
             <h5>Social Media</h5>
-                <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                <a href="https://www.facebook.com/profile.php?id=100007432507473" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
+                <a href="https://www.instagram.com/hardhey__?r=nametag" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
+                <a href="https://twitter.com/_Adekemii_?s=09" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
+                <a href="https://www.linkedin.com/in/adekemi-adeleke-377858247" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
+                <a href="https://wa.me/qr/VYAMVXSQXAXQP1" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
             </div>
             </div>
         </article>

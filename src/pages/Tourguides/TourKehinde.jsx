@@ -57,11 +57,11 @@ const TourKehinde = () => {
             <div className='mt-5'>
             <div className="socialmedia">
                 <h5>Social Media</h5>
-                <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                <a href="https://www.facebook.com/kehinde.funmilayo.18?mibextid=LQQJ4d" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
+                <a href="https://instagram.com/portable_ewaade?igshid=NTc4MTIwNjQ2YQ==" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
+                <a href="https://twitter.com/Portable_Ewaade" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
+                <a href="www.linkedin.com/in/kehinde-adetule-4a589a258" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
+                <a href="https://wa.me/message/U3YAQWEIF57WA1" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
             </div>
             </div>
         </article>
