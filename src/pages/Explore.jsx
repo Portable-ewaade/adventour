@@ -37,10 +37,10 @@ const Explore = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div class="card shadow-lg border-0 mb-4" >
-                            <img src="../../../assets/erin-ayo.png" class="card-img-top" alt="..."/>
+                            <img src="../../../assets/erin-ayo3.png" class="card-img-top" alt="..."/>
                                 <div class="card-body">
                                     <h5 class="card-title">Erin Ayonigba River</h5>
-                                    <p class="card-text">The Erin Ayonigba River in Erinjiyan Ekiti, Ekiti West Local Government Area of Ekiti State, is home to an unusual speciesof fish. The river is said to cure any ailments. The river contains fish and other creatures that are thought to be the children of the river goddess, and therefore can not be killed. </p>
+                                    <p class="card-text">The Erin Ayonigba River in erijiyan Ekiti, Ekiti West Local Government Area of Ekiti State, is home to an unusual speciesof fish. The river is said to cure any ailments. The river contains fish and other creatures that are thought to be the children of the river goddess, and therefore can not be killed. </p>
                                     <a href="/erin-river" class="btn btn-bg text-white">Learn More</a>
                                 </div>
                             </div> 
@@ -60,7 +60,7 @@ const Explore = () => {
                     <div className="col-md-6">
                     <div class="card shadow-lg border-0 mb-4"
                 >
-                        <img src="../../../assets/osunta.png" class="card-img-top" alt="..."/>
+                        <img src="../../../assets/babalola.png" class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <h5 class="card-title">Babalola Cenotaph </h5>
                             <p class="card-text">Babalola Cenotaph (Religious Tourism) at Efon Alaaye in Ekiti State is not only popular because of the number of praying mountains where many Christian faithful go for spiritual incubation, and special prayer, but it has also become a tourist centre where the Christ Apostolic Church members go to pray.</p>
