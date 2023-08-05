@@ -15,3 +15,10 @@ code {
   font-family: 'Nanum Gothic', sans-serif;
   font-family: 'Work Sans', sans-serif;
 }
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  display: none;
+}
