@@ -59,11 +59,11 @@ const TourGbekele = () => {
             <div className='mt-5'>
             <div className="socialmedia">
             <h5>Social Media</h5>
-                <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                <a href=" " className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
+                <a href="https://instagram.com/_totalllyme?igshid=MzNlNGNkZWQ4Mg==" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
+                <a href=" " className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
+                <a href=" " className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
+                <a href="https://wa.me/qr/KK2Q4Y67CWOCP1" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
             </div>
             </div>
         </article>

@@ -58,11 +58,11 @@ const TourSegun = () => {
             <div className='mt-5'>
             <div className="socialmedia">
                 <h5>Social Media</h5>
-                    <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                    <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                    <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                    <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                    <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                    <a href="https://www.facebook.com/oladseg" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
+                    <a href="https://www.instagram.com/masteroladseg" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
+                    <a href="https://www.twitter.com/masteroladseg" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
+                    <a href="https://www.linkedin.com/in/masteroladseg" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
+                    <a href="wa.me/2349031607439" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
                 </div>
             </div>
         </article>

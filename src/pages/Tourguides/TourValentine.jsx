@@ -57,11 +57,11 @@ const TourValentine = () => {
             <div className='mt-5'>
             <div className="socialmedia">
                 <h5>Social Media</h5>
-                    <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                    <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                    <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                    <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                    <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                    <a href="https://www.facebook.com/duyile.valentine" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
+                    <a href="https://https://www.instagram.com/duyilevalentine" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
+                    <a href="https://twitter.com/ValentineDuyile?t=RwG7UOzy0cY7f2YQtf-3yg&s=08" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
+                    <a href="https://www.linkedin.com/in/valentine-ogunduyile-1b5b9223a" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
+                    <a href="https://wa.me/qr/XVINOGD2643FF1" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
                 </div>
             </div>
         </article>

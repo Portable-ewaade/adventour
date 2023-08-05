@@ -6,4 +6,16 @@ body {
   background: #fffdfd;
 }
 
+code {
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  display: none;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
