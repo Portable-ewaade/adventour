@@ -87,10 +87,10 @@ const IkogosiExplore = () => {
              </div>
 
              <div className="container mx-auto img-fluid mt-3">
-               <div className="text-center">
+               {/* <div className="text-center">
                <img src="../../../assets/Property3.png" alt="..." 
                style={{width: "64rem"}}className='mb-4 mx-auto img-fluid'/>
-               </div>
+               </div> */}
                <div className="text-center">
                <img src="../../../assets/ikogosi-3.png" alt="..." className='mb-4 mx-auto img-fluid'/>
                </div>

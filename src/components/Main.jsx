@@ -13,12 +13,12 @@ const Main = () => {
             <div className="row">
                 <div className='col-md-6 p-md-5 mb-md-5'>
                       <div className=" pt-3 mt-4">
-                      <h1 className='fs-xxxlarge'>Experience the <br className='d-none d-md-block'/>  beauty of <br className='d-none d-md-block'/>  <span className='text-color'>Ekiti State</span></h1>
+                      <h1 className='fs-xxxlarge'>Experience the <br className='d-none d-md-block'/> beauty of <br className='d-none d-md-block'/>  <span className='text-color'>Ekiti State</span></h1>
                       <h6 className='lead'>Welcome to the fountain of knowledge. <br className='d-none' /> Discover the best places to enjoy your vacation and explore the beauty of nature with us</h6>
                       </div>
                        
                     <a href="/explore">
-                         <button class="btn btn-bg text-white fw-medium py-2 mt-3 px-4" >Explore</button>
+                         <button class="btn btn-bg text-white fw-medium py-2 mt-3 px-4" >Explore More</button>
                      </a>
                   </div>
                      <div className='col-md-6'>

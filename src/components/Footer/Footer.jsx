@@ -32,6 +32,12 @@ const Footer = () => {
                     <div className='col-6 col-md-2 menu text-white'>
                         <h4><a href="/tour" className='nav-link'>Our Team</a></h4>
                             <p><a href=" " className='nav-link'>Contact Us</a></p>
+
+                        <h4>
+                            <a href="/tour" className='nav-link'>Our Team</a></h4>
+            
+                            <p><a href="/" className='nav-link'>Contact Us</a></p>
+  
                             <p><a href="/review" className='nav-link'>Leave a review</a></p>
                     </div>
                     <div className='col-6 col-md-3'>
