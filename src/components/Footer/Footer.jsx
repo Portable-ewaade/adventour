@@ -2,7 +2,9 @@ import React from 'react'
 import "./Footer.css";
 
 const Footer = () => {
+   
   return (
+    
     <section>
         <div className='container-fluid footer'>
             <div className='container'>
@@ -38,9 +40,9 @@ const Footer = () => {
                     <div className='col-6 col-md-3'>
                         <h4 className='text-white'>Follow Us</h4>
                         <div className="socialmedias">
-                            <a href="/" className='smedia'> <i className="fa-brands fa-facebook"></i>   Facebook</a>
+                            <a href="https://www.facebook.com/profile.php?id=100095401634235&mibextid=ZbWKwL" className='smedia'> <i className="fa-brands fa-facebook"></i>   Facebook</a>
                             <a href="https://instagram.com/adventour_ekiti?igshid=MzNlNGNkZWQ4Mg==" className='smedia'><i className="fa-brands fa-instagram"></i>   Instagram</a>
-                            <a href="/" className='smedia'><i className="fa-brands fa-twitter"></i>   Twitter</a>
+                            <a href="https://twitter.com/adeventour48454" className='smedia'><i className="fa-brands fa-twitter"></i>   Twitter</a>
                             <a href="https://www.linkedin.com/in/adventour-ekiti-a63126286" className='smedia'><i className="fa-brands fa-linkedin"></i>   LinkedIn</a>
                         </div>
                     </div>
@@ -58,6 +60,7 @@ const Footer = () => {
                 <hr class="border border-white border-2 "></hr>
                 <h6 className='rightreserved'>&copy; Adventour, 2023. All Rights Reserved</h6>
             </div>
+                
         </div>
     </section>
   )

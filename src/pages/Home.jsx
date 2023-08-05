@@ -4,6 +4,7 @@ import MinExplore from '../components/MinExplore'
 import './Home.css'
 
 const Home = () => {
+   
   return (
     <div>
         {/* picture carousel */}
@@ -177,39 +178,39 @@ const Home = () => {
                         <div id="carouselExampleAutoplayingcard" class="carousel slide " data-bs-ride="carousel">
                             <div class="carousel-inner overflow-none ">
                                 <div class="carousel-item active text-center ">
-                                       <div className="wrap position relative">
-                                       <div className="card ms-auto feedback-bg text-white border-0 p-md-4 py-5" >
-                                        <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
-                                        
-                                        <h6>Samuel Oladimeji</h6>
-                                        <h6>Ado-Ekiti</h6>
-                                       
-                                        </div>
-                                        <div className="circle position-absolute  top-0 start-50 translate-middle">
-                                            <h2 className='pt-4 fs-xxxlarge'>SO</h2>
-                                        </div>
-                                       </div>
+                                    <div className="wrap position relative">
+                                    <div className="card ms-auto feedback-bg text-white border-0 p-md-4 py-5" >
+                                    <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
+                                    
+                                    <h6>Samuel Oladimeji</h6>
+                                    <h6>Ado-Ekiti</h6>
+                                    
+                                    </div>
+                                    <div className="circle position-absolute  top-0 start-50 translate-middle">
+                                        <h2 className='pt-4 fs-xxxlarge'>SO</h2>
+                                    </div>
+                                    </div>
                                 </div>
                                 <div class="carousel-item active text-center">
-                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
-                                        <p className='pt-md-5 pt-4'>I recently visited the Ikogosi Warm Spring and I used the tour guide service and i must commend that itwas a memorable one. Our guide was extremely knowledgeable and passionate about the history and culture of the Spring. </p>
-                                        <h6>Rhoda Ayomide</h6>
-                                        <h6>EKSU student</h6>
+                                    <div className="card feedback-bg text-white border-0 p-md-4 py-5">
+                                    <p className='pt-md-5 pt-4'>I recently visited the Ikogosi Warm Spring and I used the tour guide service and i must commend that itwas a memorable one. Our guide was extremely knowledgeable and passionate about the history and culture of the Spring. </p>
+                                    <h6>Rhoda Ayomide</h6>
+                                    <h6>EKSU student</h6>
 
-                                        <div className="circle position-absolute  top-0 start-50 translate-middle">
-                                            <h2 className='pt-4 fs-xxxlarge'>RA</h2>
-                                        </div>
+                                    <div className="circle position-absolute  top-0 start-50 translate-middle">
+                                        <h2 className='pt-4 fs-xxxlarge'>RA</h2>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item text-center">
-                                        <div className="card feedback-bg text-white border-0 p-md-4 py-5">
+                                    <div className="card feedback-bg text-white border-0 p-md-4 py-5">
                                         <p className='pt-md-5 pt-4'>My husband and I went on a vacation to Arinta Waterfalls. We used the tour guide service. From the moment we were picked up from our hotel, our tour guide went above and beyond to ensure our tour experience was an interesting one. He was always willing to answer our questions and making the tour not only informative but also incredibly fun.</p>
                                         <h6>Dorcas Adeleke</h6>
                                         <h6>Ondo State</h6>
 
-                                        <div className="circle position-absolute  top-0 start-50 translate-middle ">
-                                            <h2 className='pt-4 fs-xxxlarge'>DA</h2>
-                                        </div>
+                                    <div className="circle position-absolute  top-0 start-50 translate-middle ">
+                                        <h2 className='pt-4 fs-xxxlarge'>DA</h2>
+                                    </div>
                                     </div>
                                 </div>
                                                               
@@ -251,7 +252,7 @@ const Home = () => {
                 </div>
                 <div className='row'>
                     <div className='col-md-7 mx-auto'>
-                        {/* <div> */}
+                        
                             <section id="newsletter" className='text-center'>
                                 <div class="input-group mx-auto">
                                     <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" style={{
@@ -265,7 +266,7 @@ const Home = () => {
                                         width: 'auto'}}>Submit</button>
                                 </div>
                             </section>  
-                        {/* </div> */}
+                        
                     </div>
                 </div>
             </div>
