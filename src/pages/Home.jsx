@@ -180,7 +180,7 @@ const Home = () => {
                                 <div class="carousel-item active text-center ">
                                     <div className="wrap position relative">
                                     <div className="card ms-auto feedback-bg text-white border-0 p-md-4 py-5" >
-                                    <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, he made my tour experience a memorable one.</p>
+                                    <p className='pt-md-5 pt-4'>My experience at Arinta Waterfall was an unforgettable and amazing one. With the help of the tour guide, I was able to get to the waterfall with ease. Getting there, He made my tour experience a memorable one.</p>
                                     
                                     <h6>Samuel Oladimeji</h6>
                                     <h6>Ado-Ekiti</h6>
@@ -193,7 +193,7 @@ const Home = () => {
                                 </div>
                                 <div class="carousel-item active text-center">
                                     <div className="card feedback-bg text-white border-0 p-md-4 py-5">
-                                    <p className='pt-md-5 pt-4'>I recently visited the Ikogosi Warm Spring and I used the tour guide service and i must commend that itwas a memorable one. Our guide was extremely knowledgeable and passionate about the history and culture of the Spring. </p>
+                                    <p className='pt-md-5 pt-4'>I recently visited the Ikogosi Warm Spring and I used the tour guide service and I must commend that it was a memorable one. The guide was extremely knowledgeable and passionate about the history and culture of the Spring. </p>
                                     <h6>Rhoda Ayomide</h6>
                                     <h6>EKSU student</h6>
 

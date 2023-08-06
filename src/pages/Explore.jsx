@@ -74,7 +74,7 @@ const Explore = () => {
                         <img src="../../../assets/oni-river.png" class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <h5 class="card-title">Oni River</h5>
-                            <p class="card-text">Oni RIver is located in Efon Alaaye, in Efon Local Government. This river is believed to have therapeutic powers which make people throng the place to bath and get healed. Some fetch the water to drink for healing and deliverance from every form of satanic bondage.</p>
+                            <p class="card-text">Oni River is located in Efon Alaaye, in Efon Local Government. This river is believed to have therapeutic powers which make people throng the place to bath and get healed. Some fetch the water to drink for healing and deliverance from every form of satanic bondage.</p>
                             <a href="/" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
