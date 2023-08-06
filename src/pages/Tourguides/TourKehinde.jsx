@@ -14,10 +14,10 @@ const TourKehinde = () => {
             </div>
         </div>
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'><strong>Name:</strong> Kehinde Adetule</h6>
-            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Name:</strong> Kehinde Adetule</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Location:</strong> Ekiti State, Nigeria</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Years of experience:</strong> 5 years.</h6>
         </div>
         <article className='m-3 p-md-5'>
             <div>
@@ -60,7 +60,7 @@ const TourKehinde = () => {
                 <a href="https://www.facebook.com/kehinde.funmilayo.18?mibextid=LQQJ4d" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
                 <a href="https://instagram.com/portable_ewaade?igshid=NTc4MTIwNjQ2YQ==" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
                 <a href="https://twitter.com/Portable_Ewaade" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                <a href="www.linkedin.com/in/kehinde-adetule-4a589a258" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
+                <a href="https://www.linkedin.com/in/kehinde-adetule-4a589a258" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
                 <a href="https://wa.me/message/U3YAQWEIF57WA1" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
             </div>
             </div>

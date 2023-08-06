@@ -14,10 +14,10 @@ const TourRacheal = () => {
             </div>
         </div>
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'><strong>Name:</strong> Adeleke Adekemi Racheal</h6>
-            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ikogosi, Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Name:</strong> Adeleke Adekemi Racheal</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Location:</strong> Ikogosi, Ekiti State, Nigeria</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Years of experience:</strong> 5 years.</h6>
         </div>
     
         <article className='m-3 p-md-5'>

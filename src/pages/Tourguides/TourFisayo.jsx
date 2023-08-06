@@ -15,10 +15,10 @@ const TourFisayo = () => {
         </div>
         
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'><strong>Name:</strong> Fisayo Oso</h6>
-            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Name:</strong> Fisayo Oso</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Location:</strong> Ekiti State, Nigeria</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Years of experience:</strong> 5 years.</h6>
         </div>
         <article className='m-3 p-md-5'>
             <div>
@@ -59,10 +59,10 @@ const TourFisayo = () => {
             <div className="socialmedia">
             <h5>Social Media</h5>
                 <a href="https://www.facebook.com/fisayo.oso?mibextid=ZbWKwL" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                <a href="www.instagram.com/carolinecouture_ng/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                <a href=" " className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
+                <a href="https://www.instagram.com/carolinecouture_ng/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
+                {/* <a href=" " className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a> */}
                 <a href="https://www.linkedin.com/in/fisayo-oso-356ab116a" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                <a href=" " className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                <a href="https://wa.me/2348111319648" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
             </div>
             </div>
         </article>
