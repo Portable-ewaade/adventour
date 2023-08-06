@@ -14,10 +14,10 @@ const TourSegun = () => {
             </div>
         </div>
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'><strong>Name:</strong> Oladapo Segun Samuel</h6>
-            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ado-Ekiti, Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Name:</strong> Oladapo Segun Samuel</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Location:</strong> Ado-Ekiti, Ekiti State, Nigeria</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Years of experience:</strong> 5 years.</h6>
         </div>
         <article className='p-3 p-md-5'>
             <div>
@@ -62,7 +62,7 @@ const TourSegun = () => {
                     <a href="https://www.instagram.com/masteroladseg" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
                     <a href="https://www.twitter.com/masteroladseg" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
                     <a href="https://www.linkedin.com/in/masteroladseg" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                    <a href="wa.me/2349031607439" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
+                    <a href="https://wa.me/2349031607439" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
                 </div>
             </div>
         </article>

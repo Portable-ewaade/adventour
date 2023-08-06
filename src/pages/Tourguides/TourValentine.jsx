@@ -14,10 +14,10 @@ const TourValentine = () => {
             </div>
         </div>
         <div className='p-3 p-md-5'>
-            <h6 className='fs-3 fw-light'><strong>Name:</strong> Valentine Ogunduyile</h6>
-            <h6 className='fs-3 fw-light'><strong>Language:</strong> English, Yoruba</h6>
-            <h6 className='fs-3 fw-light'><strong>Location:</strong> Ado-Ekiti, Ekiti State, Nigeria</h6>
-            <h6 className='fs-3 fw-light'><strong>Years of experience:</strong> 5 years.</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Name:</strong> Valentine Ogunduyile</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Language:</strong> English, Yoruba</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Location:</strong> Ado, Ekiti State, Nigeria</h6>
+            <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Years of experience:</strong> 5 years.</h6>
         </div>
         <article className='m-3 p-md-5'>
             <div>
