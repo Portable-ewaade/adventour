@@ -23,6 +23,7 @@ import TourGbekele from './pages/Tourguides/TourGbekele';
 import TourKehinde from './pages/Tourguides/TourKehinde';
 import TourFisayo from './pages/Tourguides/TourFisayo';
 import TourValentine from './pages/Tourguides/TourValentine';
+import Ureje from './pages/Ureje';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             <Route path='/erin-river' element={<ErinAyonigba />} />
             <Route path='/olosuntahill' element={<OlosuntaHill />} />
             <Route path='/orole-hills' element={<OroleHills />} />
+            <Route path='/ureje' element={<Ureje />} />
             <Route path='/babalola' element={<Babalola />} />
             <Route path='/ero-dam' element={<EroDam />} />
             <Route path='/review' element={<Review />} />
