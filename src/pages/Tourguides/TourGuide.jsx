@@ -9,7 +9,7 @@ const TourGuide = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center'
         }}>
-            <div className="pt-md-3"></div>
+            <div className="pt-md-5"></div>
              <div className='container pt-md-5 mb-5'>
             <div className='row'>
                 <div className='col-md-6 ps-md-5 pt-3'>
