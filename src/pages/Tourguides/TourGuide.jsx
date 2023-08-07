@@ -68,7 +68,7 @@ const TourGuide = () => {
                         <div class="card shadow-lg mb-4">
                             <img src="../../../assets/kehinde.png" class="card-img-top" alt="..."/>
                             <div class="card-body">
-                                <h5 class="card-title">Kehind Adetule</h5>
+                                <h5 class="card-title">Kehinde Adetule</h5>
                                 <p class="card-text">Hi explorers! I'm Kehinde, your seasoned tour guide for the captivating tourist centers of Ekiti State. With five years of experience showcasing the beauty and cultrual richness of this region, I'm passionate about creating memorable and immersive experiences for travelers from all walks of life.</p>
                                 <a href="/kehinde" class="btn btn-bg text-white">View Profile</a>
                             </div>

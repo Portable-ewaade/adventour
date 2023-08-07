@@ -37,7 +37,7 @@ const ValReview = () => {
               <input type="text" class="form-control border-1" id="fullName" placeholder="Input your first name" style={{height: '60px'}} required/>
            </div>
            <div class="col-md-6 mt-3">
-              <label for="inputemail" class="form-label fs-3">Email Address</label>
+              <label for="inputemail" class="form-label ">Email Address</label>
               <input type="email" class="form-control border-1" id="emailAddress" placeholder="Input your e-mail" style={{height: '60px'}} required/>
            </div>
            <div class="col-md-6 mt-3">
