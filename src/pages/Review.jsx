@@ -4,21 +4,30 @@ import React from 'react'
 const ValReview = () => {
   return (
     <div>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-6 mt-5'>
-            <h1 className='fs-xxxlarge mt-md-5'>Drop your review <br className='d-none d-md-block' /> and feedback</h1> 
-          </div>
-          <div className='col-md-6 mt-md-5'>
-            <img src='../../../assets/dating-app.png' className='img-fluid' alt='...'/>
-          </div>
-        </div>
-      </div>
+      <section style={{
+            backgroundImage: "url('../../../assets/background.png')",
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+        }}>
+             <div className='container mb-5'>
+            <div className='row'>
+                <div className='col-md-6 ps-md-5 mt-md-5'>
+                    <h1 className='fs-xxxlarge ps-lg-5 pt-md-3 pt-4 mt-md-5'>Drop your review <br className='d-none d-md-block'/> <span className='text-color'>and feedback</span></h1>
+                    
+                </div>
+                <div className='col-md-6 mt-md-5 mt-4'>
+                      <img src='../../../assets/dating-app.png' className='img-fluid' alt='...'/>
+                </div>
+            </div>
+             </div>
+        </section>
+     
       <div className="container ">
-        <div className='text-center'>
+        <div className='text-center '>
           <article className='mb-3'>
             <h1>Get in Touch</h1>
-            <p className='fs-5'>We would love to hear from you! If you have any comments or suggestions about<br />our website or our tour guides, please don't hesitate to get in touch. We are always<br/>looking for ways to improve and make your travel experience even better.</p>
+            <p className='fs-5'>We would love to hear from you! If you have any comments or suggestions about <br className='d-none d-md-block'/>our website or our tour guides, please don't hesitate to get in touch. We are always <br className='d-none d-md-block'/>looking for ways to improve and make your travel experience even better.</p>
           </article>
         </div>
         <div className='mt-5'>
@@ -28,7 +37,7 @@ const ValReview = () => {
               <input type="text" class="form-control border-1" id="fullName" placeholder="Input your first name" style={{height: '60px'}} required/>
            </div>
            <div class="col-md-6 mt-3">
-              <label for="inputemail" class="form-label">E-mail Address</label>
+              <label for="inputemail" class="form-label fs-3">Email Address</label>
               <input type="email" class="form-control border-1" id="emailAddress" placeholder="Input your e-mail" style={{height: '60px'}} required/>
            </div>
            <div class="col-md-6 mt-3">

@@ -126,7 +126,7 @@ const IkogosiExplore = () => {
                     <li>Eri Ayonigba River</li> 
                     <li>Fajuyi Memorial Park </li> 
                 </ol>
-                <h6>Do you enjoy what you read? Are u ready to explore and book any of our tourguides ? If yes, Click <a href="/tour"><span className='text-color'>here</span></a></h6>
+                <h6>Do you enjoy what you read? Are you ready to explore and book any of our tourguides ? If yes, Click <a href="/tour"><span className='text-color'>here</span></a></h6>
 
              </div>
          </div>
