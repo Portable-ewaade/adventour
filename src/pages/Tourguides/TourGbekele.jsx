@@ -3,16 +3,25 @@ import React from 'react'
 const TourGbekele = () => {
   return (
     <div>
-        <div className='container'>
-            <div className='row mt-5'>
-                <div className='col-md-6'>
-                <h1 className='fs-xxxlarge'>Meet Our<br/><span className='text-color'>Tour Guides</span></h1>
+         <section  style={{
+            backgroundImage: "url('../../../assets/background.png')",
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+        }}>
+             <div className='container pt-md-5 mb-5'>
+            <div className='row mt-md-3'>
+                <div className='col-md-6 ps-md-5 mt-md-5'>
+                    <h1 className='fs-xxxlarge ps-lg-5 pt-md-3 pt-4 mt-md-5'>Meet Our <br /> <span className='text-color'>Tour Guide</span></h1>
+                    
                 </div>
-                <div className="col-md-5">
+                <div className='col-md-6 mt-md-0 mt-4'>
                     <img src="../../../assets/gbekele.png" className='img-fluid rounded-5' alt="..."/>
                 </div>
             </div>
-        </div>
+             </div>
+        </section>
+        
         <div className='p-3 p-md-5'>
             <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Name:</strong> Oluwatogbekele Obaniyi</h6>
             <h6 className='fs-5 fw-light'><strong className='fw-semibold'>Language:</strong> English, Yoruba</h6>
