@@ -96,9 +96,9 @@ const Arinta = () => {
                 <h4>Tips to know</h4>
 
                 <ol>
-                    <li>Entry Fee: There is typically an entry fee to access the Ikogosi Warm Springs. The fee may vary for Nigerian citizens, foreign visitors, and children. The cost is usually nominal.
+                    <li>Entry Fee: There is typically an entry fee to access the Arinta Waterfall. The fee may vary for Nigerian citizens, foreign visitors, and children. The cost is usually nominal.
                     </li>
-                    <li>Visiting Hours: Ikogosi Warm Springs is generally open to visitors during daylight hours. It is recommended to visit during the day to fully appreciate the natural beauty and explore the surroundings.
+                    <li>Visiting Hours: Arinta Waterfall is generally open to visitors during daylight hours. It is recommended to visit during the day to fully appreciate the natural beauty and explore the surroundings.
                     </li> 
                     <li>Bring along food, drinks, snacks as there is no restaurant around; change of clothing: shower cap and swimming gears.
                     </li> 

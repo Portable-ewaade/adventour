@@ -61,19 +61,9 @@ const Babalola = () => {
                 <img src="../../../assets/babalola-2.png" alt="..." className='mb-4 mx-auto img-fluid' style={{width: "65rem", height: "auto"}}/>
                 </div>
                 </div>
+
+                </div>
             
-                <div className="p-3 px-md-5 mb-3">
-                <h4>Tips to know</h4>
-                <p>Babalola Cenotaph, being a significant cultural and religious site in Ekiti State, Nigeria, may have limited commercial facilities directly around it due to its natural and sacred nature. However, there are likely some facilities available in the surrounding areas to cater to the needs of visitors. Here are some possible facilities you may find near Orole Hills:</p>
-                <ol>
-                    <li>Accommodation: There might be lodging options available in nearby towns or cities, such as Ado-Ekiti, the capital of Ekiti State. Hotels, guesthouses, and lodges can provide accommodations for visitors who wish to explore Orole Hill and its surroundings. </li>
-                    <li>Restaurants and Food Stalls: In nearby towns and villages, you can find local eateries, restaurants, and food stalls that offer a variety of traditional and local cuisine. These places may serve regional dishes and refreshments, allowing visitors to savor local flavors during their visit.</li> 
-                </ol>
-    
-                </div>
-                </div>
-                
-    
     
                 <div className="p-3 px-md-5 mb-3">
                 <h4>Other tourists centers close to Babalola Cenotaph</h4>

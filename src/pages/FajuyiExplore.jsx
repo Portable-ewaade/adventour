@@ -118,12 +118,12 @@ const FajuyiExplore = () => {
             </div>
             <div className="p-3 px-md-5 pt-md-5">
                 <h4>Tips to know</h4>
-                <p>The Ikogosi Warm Springs in Ekiti State, Nigeria, offers a range of facilities to enhance visitors' experience. Here are some of the facilities you can find at Ikogosi Warm Springs:</p>
+                <p>The Fajuyi Memorial Park in Ekiti State, Nigeria, offers a range of facilities to enhance visitors' experience. Here are some of the facilities you can find at Fajuyi Memorial Park:</p>
 
                 <ol>
-                    <li>Entry Fee: There is typically an entry fee to access the Ikogosi Warm Springs. The fee may vary for Nigerian citizens, foreign visitors, and children. The cost is usually nominal.
+                    <li>Entry Fee: There is typically an entry fee to access the Fajuyi Memorial Park. The fee may vary for Nigerian citizens, foreign visitors, and children. The cost is usually nominal.
                     </li>
-                    <li>Visiting Hours: Ikogosi Warm Springs is generally open to visitors during daylight hours. It is recommended to visit during the day to fully appreciate the natural beauty and explore the surroundings.
+                    <li>Visiting Hours: Fajuyi Memorial Park is generally open to visitors during daylight hours. It is recommended to visit during the day to fully appreciate the natural beauty and explore the surroundings.
                     </li> 
                 </ol>
 

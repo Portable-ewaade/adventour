@@ -10,9 +10,18 @@ h1,h2,h3,h4,h5,h6 {
 .nav-bg{
     background-color: #E3BE84;
 }
-.active{
-    border-bottom: 3px solid #0000 !important;
+.nav-bg{
+    background-color: #E3BE84;
 }
+ul li a:hover{
+    color: #E2495B !important;
+}
+
+/* .active {
+    border-bottom: 3px solid red !important;
+  } */
+
+
 .btn-bg{
     background-color: #E2495B;
     border: 0;
