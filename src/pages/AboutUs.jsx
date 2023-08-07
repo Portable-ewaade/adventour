@@ -3,18 +3,26 @@ import React from 'react'
 const AboutUs = () => {
   return (
     <div>
-        <div className='container mt-5 mb-5'>
-            <div className='row'>
-                <div className='col-md-6 pt-md-5 '>
-                    <h1 className='fs-xxxlarge'>Welcome to</h1>
-                    <h1 className='fs-xxxlarge text-color'>Adventour</h1>
-                    <h4 className='fw-light'>Your gateway to unforgettable <br/>adventure</h4>
+        <section className='pt-md-5'  style={{
+            backgroundImage: "url('../../../assets/background.png')",
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+        }}>
+             <div className='container pt-md-5 mb-5'>
+            <div className='row pt-md-5'>
+                <div className='col-md-6 ps-md-5'>
+                    <h1 className='fs-xxxlarge ps-lg-5 pt-md-3 pt-4'>Welcome to <br /> <span className='text-color'>Adventour</span></h1>
+                    <h6 className='mt-3 lead ps-md-5 '>Your gateway to unforgettable <br/>adventure</h6>
+                    
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 mt-md-0 mt-4'>
                     <img src='../../../assets/about.png' className='card-img-top' alt='...'/>
                 </div>
             </div>
-        </div>
+             </div>
+        </section>
+       
         <div className='container pt-md-5'>
             <div className='row'>
                 <div className='col-md-6'>
