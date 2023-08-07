@@ -31,12 +31,8 @@ const Footer = () => {
                     <hr className='border border-white border-2 d-md-none d-block'/>
                     <div className='col-6 col-md-2 menu text-white'>
                         <h4><a href="/tour" className='nav-link'>Our Team</a></h4>
-                            <p><a href=" " className='nav-link'>Contact Us</a></p>
-
-                        <h4>
-                            <a href="/tour" className='nav-link'>Our Team</a></h4>
             
-                            <p><a href="/" className='nav-link'>Contact Us</a></p>
+                            <p><a href="/review" className='nav-link'>Contact Us</a></p>
   
                             <p><a href="/review" className='nav-link'>Leave a review</a></p>
                     </div>
@@ -53,8 +49,8 @@ const Footer = () => {
                 <hr className='border border-white border-2 d-md-none d-block' />
                 <div className="container mt-3">
                     <div className="col-6 text-white">
-                        <h5 className='fw-normal'>For questioning and <br className='d-none d-md-block'/>booking, please contact:</h5>
-                        <h5 className='fw-normal'>E-mail : adventourekiti@gmail.com</h5>
+                        <h6 className='fw-normal'>For questioning and <br className='d-none d-md-block'/>booking, please contact:</h6>
+                        <h6 className='fw-normal'>E-mail : adventourekiti@gmail.com</h6>
                     </div>
                 </div>
             </div>

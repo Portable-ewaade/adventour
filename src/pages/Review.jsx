@@ -22,7 +22,7 @@ const ValReview = () => {
             </div>
              </div>
         </section>
-      
+     
       <div className="container ">
         <div className='text-center '>
           <article className='mb-3'>
@@ -33,7 +33,7 @@ const ValReview = () => {
         <div className='mt-5'>
           <form action='/reviews.php' autoComplete='on' className='pt-5 '>
             <div class="col-md-6">
-              <label for="inputFullname" class="form-label fs-3">Full Name</label>
+              <label for="inputFullname" class="form-label">Full Name</label>
               <input type="text" class="form-control border-1" id="fullName" placeholder="Input your first name" style={{height: '60px'}} required/>
            </div>
            <div class="col-md-6 mt-3">
@@ -41,22 +41,22 @@ const ValReview = () => {
               <input type="email" class="form-control border-1" id="emailAddress" placeholder="Input your e-mail" style={{height: '60px'}} required/>
            </div>
            <div class="col-md-6 mt-3">
-              <label for="inputlocation" class="form-label fs-3">Location</label>
+              <label for="inputlocation" class="form-label">Location</label>
               <input type="text" class="form-control border-1" id="location" placeholder="Input your location" style={{height: '60px'}} />
            </div>
            <div className='col-md-6 mt-3'>
-            <label for='inputphonenumber' className='form-label fs-3'>Phone Number</label>
+            <label for='inputphonenumber' className='form-label'>Phone Number</label>
            <div class="input-group mb-3">
               <span class="input-group-text" id="basic-addon1">+234</span>
               <input type="number" min={11} class="form-control border-1" id="phoneNumber" placeholder="Phone Number" aria-label="Username" aria-describedby="basic-addon1" style={{height: '60px'}}/>
             </div>
             </div>
             <div class="col-md-6 mt-3">
-              <label for="inputlocation" class="form-label fs-3">Tourist Center you visited</label>
+              <label for="inputlocation" class="form-label">Tourist Center you visited</label>
               <input type="text" class="form-control border-1" id="touristCenterVisited" placeholder="Your answer" style={{height: '60px'}}/>
            </div>
            <div class="col-md-6 mt-3">
-              <label for="inputreview" class="form-label fs-3">Review</label>
+              <label for="inputreview" class="form-label">Review</label>
               <textarea class="form-control border-1" id="review" rows="10" required></textarea>
             </div>
            <div className='mt-3 mb-3'>          
@@ -65,14 +65,6 @@ const ValReview = () => {
           </form>
         </div>
         <div>
-          {/* <div className="socialmedia mt-5 mb-5">
-                <h4>Social Media</h4>
-                <a href="/" className="fa-brands fa-facebook" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-instagram" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-twitter" style={{color: '#3c3c3c'}}></a>
-                <a href="/" className="fa-brands fa-linkedin" style={{color: '#464500'}}></a>
-                <a href="/" className="fa-brands fa-whatsapp" style={{color: '#464500'}}></a>
-          </div> */}
         </div>
       </div>
     </div>
