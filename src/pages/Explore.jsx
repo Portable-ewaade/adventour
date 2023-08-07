@@ -14,10 +14,10 @@ const Explore = () => {
                 <div className="row ">
                     <div className="col-md-6 mt-5 pt-md-4">
                         <h1 className='fs-xxxlarge'>Explore your <br /> next  <span className='text-color'>Vacation</span></h1>
-                        <p className='mt-3'>Explore different tourist centers available in Ekiti State and choose the destination for your next vacation</p>
+                        <h6 className='mt-3 lead'>Explore different tourist centers available in Ekiti State <br />  and choose the destination for your next vacation</h6>
 
                         <a href="/tour">
-                          <button class="btn btn-bg text-white fs-small py-2 px-4" >Get a Tour Guide</button>
+                          <button class="btn btn-bg text-white fs-small py-2 px-4 mt-2" >Get a Tour Guide</button>
                   	    </a>
                     </div>
 
