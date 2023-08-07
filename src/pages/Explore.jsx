@@ -71,10 +71,10 @@ const Explore = () => {
                     <div className="col-md-6">
                     <div class="card shadow-lg border-0 mb-4"
                 >
-                        <img src="../../../assets/oni-river.png" class="card-img-top" alt="..."/>
+                        <img src="../../../assets/ureje1.png" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Oni River</h5>
-                            <p class="card-text">Oni River is located in Efon Alaaye, in Efon Local Government. This river is believed to have therapeutic powers which make people throng the place to bath and get healed. Some fetch the water to drink for healing and deliverance from every form of satanic bondage.</p>
+                            <h5 class="card-title mt-lg-2">Ureje Dam</h5>
+                            <p class="card-text">Ureje Dam is a significant water reservoir located in Ado Ekiti, the capital city of Ekiti State. It serves as a key source of water supply and irrigation for both the city and its surrounding areas. The dam plays a vital role in supporting agricultural activities, providing potable water, and contributing to the overall development of the region.</p>
                             <a href="/ureje" class="btn btn-bg text-white">Learn More</a>
                         </div>
                     </div> 
