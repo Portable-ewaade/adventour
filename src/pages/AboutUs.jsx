@@ -40,7 +40,7 @@ const AboutUs = () => {
                     <p>Our mission is to unlock the Ekiti State wonders for you, empowering you to embark on extraordinary journeys filled with discovery, adventure, and personal growth.</p>
                     <p>Our experienced and knowledgeable tour guides will ensure that you have a safe and enjoyable experience while exploring the stunning landscapes and rich culture of Ekiti State.</p>
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 mb-3'>
                 <img src="../../../assets/ikogosi.png" className="img-fluid" alt="" />
                 </div>
             </div>
