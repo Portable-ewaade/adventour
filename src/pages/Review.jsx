@@ -31,7 +31,7 @@ const ValReview = () => {
           </article>
         </div>
         <div className='mt-5'>
-          <form action='/reviews.php' autoComplete='on' className='pt-5 '>
+          <form action='/' autoComplete='on' className='pt-5 '>
             <div class="col-md-6">
               <label for="inputFullname" class="form-label fw-medium">Full Name</label>
               <input type="text" class="form-control border-1" id="fullName" placeholder="Input your first name" style={{height: '60px'}} required/>
